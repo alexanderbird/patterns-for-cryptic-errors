@@ -12,7 +12,7 @@ Add iOS Validate Environment Script (#19750)
     
     This script:
     
-    - Validates that the minimum required Xcode version is installed (people using Xcode 8 with a recent release may encounter cryptic build errors).
+    - Validates that the minimum required Xcode version is installed (people using Xcode 8 with a recent release may encounter **cryptic** build errors).
     
     - Validates the correct Node version is installed (Node 10 is not fully supported at the time, Node 6 is no longer supported).
     
@@ -74,7 +74,7 @@ Add iOS Validate Environment Script (#19750)
 Default enableBabelRCLookup (recursive) to false
     
     Summary:
-    This is a breaking change that tells Metro to look at only the project's .babelrc file. Previously it would look at .babelrc files under node_modules and would run into issues because it didn't have the version of Babel nor the plugins/presets that `node_modules/randompackage/.babelrc` wanted. So as a workaround, people would write a postinstall step that deletes `node_modules/**/.babelrc`, which worked well. This flag (`getEnableBabelRCLookup = false`) has the same effect and hopefully fixes one source of cryptic bugs people run into.
+    This is a breaking change that tells Metro to look at only the project's .babelrc file. Previously it would look at .babelrc files under node_modules and would run into issues because it didn't have the version of Babel nor the plugins/presets that `node_modules/randompackage/.babelrc` wanted. So as a workaround, people would write a postinstall step that deletes `node_modules/**/.babelrc`, which worked well. This flag (`getEnableBabelRCLookup = false`) has the same effect and hopefully fixes one source of **cryptic** bugs people run into.
     
     To use the old behavior, create a config file named `rn-cli.config.js` with:
     ```js
@@ -98,7 +98,7 @@ Default enableBabelRCLookup (recursive) to false
 Fix `react-native link` issue when using multiple manifests
     
     Summary:
-    `react-native link` often fails due to the wrong manifest being used when you use a debug manifest. `findManifest` returns `debug/AndroidManifest.xml` instead of `main/AndroidManifest.xml`. And the debug manifest usually does not have the package name defined so `projectConfigAndroid` throws a cryptic "Cannot read property 'replace' of undefined" error.
+    `react-native link` often fails due to the wrong manifest being used when you use a debug manifest. `findManifest` returns `debug/AndroidManifest.xml` instead of `main/AndroidManifest.xml`. And the debug manifest usually does not have the package name defined so `projectConfigAndroid` throws a **cryptic** "Cannot read property 'replace' of undefined" error.
     
     This fixes the issue by throwing a more user friendly error and providing a `manifestPath` userConfig.
     
@@ -115,7 +115,7 @@ Fix `react-native link` issue when using multiple manifests
 Fix invariant in scrollResponderZoomTo
     
     Summary:
-    This fixes a cryptic bug to appear when you try to use scrollResponderZoomTo in Android.
+    This fixes a **cryptic** bug to appear when you try to use scrollResponderZoomTo in Android.
     before this PR it would break with a `Error: TaskQueue: Error with task : invariant requires an error message argument` because the invariant() was not properly used..
     
     Also, instead of detecting the platform, I think it's better practice to duck type.
@@ -129,7 +129,7 @@ Fix invariant in scrollResponderZoomTo
 Update RunningOnDeviceAndroid.md
     
     Summary:
-    Add note associating error message to "adb reverse" command. When I first ran a React Native app on my Android phone, I received a cryptic "bridge configuration isn't available" error. After some research, I discovered that the "adb reverse" command mentioned further down on the page resolved the problem.
+    Add note associating error message to "adb reverse" command. When I first ran a React Native app on my Android phone, I received a **cryptic** "bridge configuration isn't available" error. After some research, I discovered that the "adb reverse" command mentioned further down on the page resolved the problem.
     Closes https://github.com/facebook/react-native/pull/7725
     
     Differential Revision: D3491577
@@ -144,7 +144,7 @@ Add $(inherited) to OTHER_LDFLAGS in xcodeproj template
     Summary:
     This is particularly important when using generated xcode project together with cocoapods (or anything that leverages a custom xcconfig)
     
-    If we do not set `$(inherited)`, then user will get cryptic "Symbol(s) not found for architecture ..." errors that will be really difficult to track down, especially for beginners. This happens because without setting `$(inherited)` we are essentially overriding settings provided on project level (rather than target level) as well as `.xcconfig` level.
+    If we do not set `$(inherited)`, then user will get **cryptic** "Symbol(s) not found for architecture ..." errors that will be really difficult to track down, especially for beginners. This happens because without setting `$(inherited)` we are essentially overriding settings provided on project level (rather than target level) as well as `.xcconfig` level.
     
     **Test plan (required)**
     
@@ -182,7 +182,7 @@ Better error message for RawText outside <Text>
     Native iOS has a good error message, but it's in native which makes
     things a little harder to track down (can't use Chrome debugger as easily).
     
-    Android has no special handling, so a cryptic "Trying to add unknown view tag..."
+    Android has no special handling, so a **cryptic** "Trying to add unknown view tag..."
     redbox would come up.
     
     This puts the error handling in JS so it's shared on all platforms and can be
@@ -199,7 +199,7 @@ Better error message for RawText outside <Text>
 ### Commit: 0fbb97432c9f5c9b4c5958e719ca32d32a3922f1
 Fix ENOTEMPTY and EPERM errors on Windows.
     
-    Windows began suffering from cryptic ENOTEMPTY and EPERM errors between
+    Windows began suffering from **cryptic** ENOTEMPTY and EPERM errors between
     1.5-beta.20 and 1.5-rc.0. After a tricky `git bisect` adventure, I tracked
     the problem down to my commit b6694b2f5d1ba8f58ce20e56de68bef7487ca3ce,
     which caused dynamic modules to be written more than once by the bundler.
@@ -210,7 +210,7 @@ Fix ENOTEMPTY and EPERM errors on Windows.
 ### Commit: 1a380f5532a95236eb066d44398d9a9c7b34b37f
 Improve minifiers to capture error from UglifyJS.
     
-    The error messages which come from UglifyJS tend to be quite cryptic, as
+    The error messages which come from UglifyJS tend to be quite **cryptic**, as
     seen in issues like meteor/meteor#8370 or meteor/meteor#8020.  The file,
     line, and column are provided, however the message is garbled and the
     stacktrace long and acutely harrowing.  Since these errors are occurring
@@ -233,13 +233,13 @@ Check type of `onException` argument to `bindEnvironment`
     
     Meteor.bindEnvironment() can have an invalid error handler accidentally
     passed as the second argument, especially in CoffeeScript where the
-    issue is not easy to find. This can cause a cryptic error message about
+    issue is not easy to find. This can cause a **cryptic** error message about
     an exception being thrown when onException() itself is being called.
 -----------------------------------------------------
 ### Commit: 2ab2ddedcce1d090249b04c97955bf33c3f56a8a
 Clean up ReactiveDict#setDefault and add test
     
-    This is pure behavior-preserving clean-up, removing a cryptic comment
+    This is pure behavior-preserving clean-up, removing a **cryptic** comment
     and adding a test.  Note that `self.keys[key]` is either absent or
     a string, which has been true since this code was written, so there
     was never any reason for this code or comment to be written this way.
@@ -255,7 +255,7 @@ parseConstraint -> parsePackageConstraint
     with functions like parsePackageAtVersion which return an object
     like `{package, version}`.
     
-    `vConstraint` was too cryptic.
+    `vConstraint` was too **cryptic**.
     
     Changes were discussed with Glasser in a code review.
     
@@ -269,7 +269,7 @@ parseConstraint -> parsePackageConstraint
 ### Commit: e850fd33a3eba416f4f7d80804022842a389ae56
 allow `this` when no data context
     
-    (rather than throwing a cryptic error)
+    (rather than throwing a **cryptic** error)
 -----------------------------------------------------
 ## Repository: javascript/express
 ## Repository: javascript/atom
@@ -284,7 +284,7 @@ allow `this` when no data context
 crypto: decode missing passphrase errors
     
     When a user attempts to load an encrypted key without supplying a
-    passphrase, a cryptic OpenSSL error is thrown. This change intercepts
+    passphrase, a **cryptic** OpenSSL error is thrown. This change intercepts
     the OpenSSL error and throws a nice error code instead.
     
     PR-URL: https://github.com/nodejs/node/pull/25208
@@ -297,7 +297,7 @@ crypto: decode missing passphrase errors
 test: add test-child-process-emfile fail message
     
     When the test fails (as it does frequently on FreeBSD unfortunately)
-    provide a non-cryptic error message that also provides a line number.
+    provide a non-**cryptic** error message that also provides a line number.
     
     PR-URL: https://github.com/nodejs/node/pull/3335
     Reviewed-By: Ben Noordhuis <info@bnoordhuis.nl>
@@ -305,7 +305,7 @@ test: add test-child-process-emfile fail message
 ### Commit: bd42ba056afe1efe9a4f58f1274d9305c4998a1f
 async-wrap: set flags using functions
     
-    Setting flags using cryptic numeric object fields is confusing. Instead
+    Setting flags using **cryptic** numeric object fields is confusing. Instead
     use much simpler .enable()/.disable() calls on the async_wrap object.
     
     PR-URL: https://github.com/iojs/io.js/pull/1614
@@ -319,7 +319,7 @@ http: cleanup setHeader()
     map after instantiation.
     
     "name" is now explicitly checked to be a string. Where before if a
-    non-string was passed the following cryptic error was thrown:
+    non-string was passed the following **cryptic** error was thrown:
     
         _http_outgoing.js:334
           var key = name.toLowerCase();
@@ -336,7 +336,7 @@ node: allow nextTick infinite recursion
     nextTick(). There was also an edge case where too many callbacks were
     pushed onto the nextTickQueue, while not actually being recursive.
     
-    This is being done to prevent possible cryptic FATAL ERROR messages from
+    This is being done to prevent possible **cryptic** FATAL ERROR messages from
     popping up, and issues being posted about them.
 -----------------------------------------------------
 ## Repository: javascript/reveal.js
@@ -352,7 +352,7 @@ Add warning for rendering into container that was updated manually (#10210)
     
     **what is the change?:**
     We want to warn when users render into a container which was manually
-    emptied or updated outside of React. This can lead to the cryptic error
+    emptied or updated outside of React. This can lead to the **cryptic** error
     about not being able to remove a node, or just lead to silent failures
     of render. This warning should make things more clear.
     
@@ -574,7 +574,7 @@ Add warning for rendering into container that was updated manually (#10210)
     - Sometimes people call `ReactDOM.render(... container)`, then manually
     clear the content of the `container`, and then try to call another
     `ReactDOM.render(... container)`.
-    - This leads to cryptic errors or silent failure because we hold a
+    - This leads to **cryptic** errors or silent failure because we hold a
       reference to the node that was rendered the first time, and expect it
       to still be inside the container.
     - We added a warning for this issue in `renderSubtreeIntoContainer`, but
@@ -693,7 +693,7 @@ Add warning for rendering into container that was updated manually (#10210)
 Add `ReactProps.func`
     
     This adds ReactProps.func so people don't need to write the
-    slightly-more-cryptic ReactProps.instanceOf(Function). We should have
+    slightly-more-**cryptic** ReactProps.instanceOf(Function). We should have
     had this all along.
 -----------------------------------------------------
 ## Repository: javascript/axios

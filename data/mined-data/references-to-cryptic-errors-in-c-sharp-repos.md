@@ -4,7 +4,7 @@
 Discover hub methods at startup time (#503)
     
     * Discover hub methods at startup time
-    - Errors will show up earlier as a result instead of cryptic
+    - Errors will show up earlier as a result instead of **cryptic**
     first connect errors.
 -----------------------------------------------------
 ## Repository: c-sharp/Newtonsoft.Json
@@ -16,13 +16,13 @@ Discover hub methods at startup time (#503)
 ## Repository: c-sharp/aspnetboilerplate
 ## Repository: c-sharp/Nancy
 ### Commit: 50aba6137ea18acb9a1e0c1c5851ccfe4260849f
-DefaultFileSystemReader: if directory does not exist, return empty list of file names. This fixes a cryptic TinyIoC exception that is thrown if the root path provider points to a path, or calculates a path that does not exist.
+DefaultFileSystemReader: if directory does not exist, return empty list of file names. This fixes a **cryptic** TinyIoC exception that is thrown if the root path provider points to a path, or calculates a path that does not exist.
 -----------------------------------------------------
 ## Repository: c-sharp/coreclr
 ## Repository: c-sharp/ShareX
 ## Repository: c-sharp/PowerShell
 ### Commit: b2ae01fc3eb55218583d7d92d1125d5942f3b3cf
-Fix cryptic Pester failure
+Fix **cryptic** Pester failure
     
     When the Pester tests were invoked over PSRP and the environment was
     more pristine than a local client, the lack of a "foo" variable in some
@@ -43,7 +43,7 @@ Fix cryptic Pester failure
     To fix this:
     
     - Add reference to `System.Delegate.DynamicInvoke` to the `WebAssembly.Bindings` linker xml file so the linker knows not to strip the code.
-    - Add detailed error messages in case something else goes wrong so the crash is not so cryptic.
+    - Add detailed error messages in case something else goes wrong so the crash is not so **cryptic**.
     
     * [wasm] WebSocket support initial commit.
     
@@ -85,16 +85,16 @@ Fix cryptic Pester failure
     To fix this:
     
     - Add reference to `System.Delegate.DynamicInvoke` to the `WebAssembly.Bindings` linker xml file so the linker knows not to strip the code.
-    - Add detailed error messages in case something else goes wrong so the crash is not so cryptic.
+    - Add detailed error messages in case something else goes wrong so the crash is not so **cryptic**.
 -----------------------------------------------------
 ### Commit: 69d5baed9f62c995082b04647a69db445520d7e2
-Name the llvm methods using the debug symbol by default, instead of using the cryptic m_<token> name.
+Name the llvm methods using the debug symbol by default, instead of using the **cryptic** m_<token> name.
 -----------------------------------------------------
 ### Commit: a925966529011ff930f11797a7c4f2bf1333fb1e
 2009-03-12  Atsushi Enomoto  <atsushi@ximian.com>
     
             * SerializationMap.cs : make generic type parsing sloppy.
-              because we don't know some cryptic hash algorithm:
+              because we don't know some **cryptic** hash algorithm:
               http://jeffbarnes.net/portal/blogs/jeff_barnes/archive/2007/05/10/wcf-serialization-and-generics.aspx
     
     

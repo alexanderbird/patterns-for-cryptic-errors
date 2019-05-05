@@ -2,9 +2,10 @@ require 'clamp'
 require 'git'
 
 class SearchResults
-  def initialize location, commits
+  def initialize location, commits, search
     @location = location
     @commits = commits
+    @search = search
   end
 
   def to_s
@@ -14,7 +15,7 @@ class SearchResults
       result += "\n" + commit.message.split("\n").join("\n    ")
       result += "\n-----------------------------------------------------"
     end
-    result
+    result.gsub(@search, "**#{@search}**")
   end
 end
 
@@ -26,7 +27,7 @@ Clamp do
     puts "# Search: '#{search}'"
     repos = Dir.entries("./#{directory}/").select {|d| d != "." && d != ".." }
     repos.each do |repo|
-      puts search_in_repo repo
+      puts search_in_repo(repo)
     end
   end
 
@@ -34,6 +35,6 @@ Clamp do
     location = "#{directory}/#{repo}"
     git = Git.open "#{location}"
     commits = git.log.grep search
-    SearchResults.new location, commits
+    SearchResults.new location, commits, search
   end
 end

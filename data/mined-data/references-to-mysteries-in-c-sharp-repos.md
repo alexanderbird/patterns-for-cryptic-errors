@@ -1,7 +1,7 @@
 # Search: 'myster'
 ## Repository: c-sharp/AspNetCore
 ### Commit: 46136e91aba8ad468b4fd2af3f89a5bca7434172
-Resolve mysterious runtime errors caused because Microsoft.Extensions.DependencyModel v1.0.1-beta-000933 does not exist on NuGet.org
+Resolve **myster**ious runtime errors caused because Microsoft.Extensions.DependencyModel v1.0.1-beta-000933 does not exist on NuGet.org
 -----------------------------------------------------
 ## Repository: c-sharp/Newtonsoft.Json
 ## Repository: c-sharp/EntityFrameworkCore
@@ -12,13 +12,13 @@ Resolve mysterious runtime errors caused because Microsoft.Extensions.Dependency
 ## Repository: c-sharp/aspnetboilerplate
 ## Repository: c-sharp/Nancy
 ### Commit: 19dd28ea146a54459686134bd3001ffa5f45cbcb
-Added the changes that were mysteriously lost during the merge.
+Added the changes that were **myster**iously lost during the merge.
 -----------------------------------------------------
 ## Repository: c-sharp/coreclr
 ### Commit: 227afb9da20a66791426e779959f86bed80f166a
 Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
     
-    A stress tests have uncovered a mysterious issue with virtual memory committing on
+    A stress tests have uncovered a **myster**ious issue with virtual memory committing on
     Linux. During some stress tests, all of a sudden, segments of GC heap got unmapped
     or virtual allocator has reserved a block of memory twice.
     It turned out that the issue was caused by a strange behavior of mmap in the OOM case.
@@ -45,7 +45,7 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
     byte array and then calls Read (..., 1) on it. To solve this, we override
     ReadByte () in LogStream and use a private buffer to hold the result.
     
-    It's a bit of a mystery to me why Stream.ReadByte () does it this way. The
+    It's a bit of a **myster**y to me why Stream.ReadByte () does it this way. The
     documentation for Stream explicitly says that instance methods aren't thread
     safe, so it would be perfectly fine for Stream.ReadByte () to do what we do
     here...
@@ -68,7 +68,7 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
         names. for example using assembly built on mac with embedded
         linker blacklisting xml file, which's name contains characters in
         its filename which are invalid on windows. so the windows built
-        app using that assembly would fail mysteriously, because the
+        app using that assembly would fail **myster**iously, because the
         important parts wouldn't be preserved.
     
         thus we use just string comparison
@@ -79,7 +79,7 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
     semaphore_wait() never returns -1, but returns KERN_ABORTED if the
     call needs to be repeated.  This caused a semaphore wait to sometimes
     return in the SGen workers code when it shouldn't, which caused a
-    mysterious assertion failure.
+    **myster**ious assertion failure.
 -----------------------------------------------------
 ### Commit: d9faabbc78794f58945af20489d0d19515707365
 2005-08-18  Sebastien Pouliot  <sebastien@ximian.com>
@@ -125,7 +125,7 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
     2005-07-15  Sebastien Pouliot  <sebastien@ximian.com>
     
     	* HtmlAnchorTest.cs: Added tests for resolving the URL and the
-    	mysterious disappearance of the HRef attribute after rendering.
+    	**myster**ious disappearance of the HRef attribute after rendering.
     
     2005-07-08  Sebastien Pouliot  <sebastien@ximian.com>
     
@@ -1007,14 +1007,14 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
 2003-12-04  Gonzalo Paniagua Javier <gonzalo@ximian.com>
     
     	* Blend.cs: fix array sizes in the constructors. Closes bug #51564.
-    	System.Web moves in mysterious ways.
+    	System.Web moves in **myster**ious ways.
     
     svn path=/trunk/mcs/; revision=20756
 -----------------------------------------------------
 ### Commit: 5d592bb366bfdb82e78a0975795ab592fbce7fc5
 2002-12-21  Ravi Pratap  <ravi@ximain.com>
     
-    	* test-171.cs : This was mysteriously absent. Add new test in its
+    	* test-171.cs : This was **myster**iously absent. Add new test in its
     	place.
     
     svn path=/trunk/mcs/; revision=9808
