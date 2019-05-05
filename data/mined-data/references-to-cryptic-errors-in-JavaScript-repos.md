@@ -1,8 +1,8 @@
-#Search: 'cryptic'
-##Repository: javascript/bootstrap
-##Repository: javascript/Chart.js
-##Repository: javascript/react-native
-###Commit: 1fb7a25f7b9686b23bf354feedb8c39334d45ff6
+# Search: 'cryptic'
+## Repository: javascript/bootstrap
+## Repository: javascript/Chart.js
+## Repository: javascript/react-native
+### Commit: 1fb7a25f7b9686b23bf354feedb8c39334d45ff6
 Add iOS Validate Environment Script (#19750)
     
     Summary:
@@ -70,7 +70,7 @@ Add iOS Validate Environment Script (#19750)
     
     fbshipit-source-id: a69ef2a6e513e580089c791fd44a0e70c2a3f240
 -----------------------------------------------------
-###Commit: 023ac57337b351959d443133c3c09607c4ffc800
+### Commit: 023ac57337b351959d443133c3c09607c4ffc800
 Default enableBabelRCLookup (recursive) to false
     
     Summary:
@@ -94,7 +94,7 @@ Default enableBabelRCLookup (recursive) to false
     
     fbshipit-source-id: ce368b1d5671cc6c6261cbe3c39e61c9401fe37a
 -----------------------------------------------------
-###Commit: 1ad08aa65995df14053a925c5a84434c4cffb512
+### Commit: 1ad08aa65995df14053a925c5a84434c4cffb512
 Fix `react-native link` issue when using multiple manifests
     
     Summary:
@@ -111,7 +111,7 @@ Fix `react-native link` issue when using multiple manifests
     
     fbshipit-source-id: b177f916fd4799c873d2515c18cbb87bef3203f0
 -----------------------------------------------------
-###Commit: 20e99f5b9313c0f8c429b02787a0f9e691b68a19
+### Commit: 20e99f5b9313c0f8c429b02787a0f9e691b68a19
 Fix invariant in scrollResponderZoomTo
     
     Summary:
@@ -125,7 +125,7 @@ Fix invariant in scrollResponderZoomTo
     
     fbshipit-source-id: 47002a85d8252e5abbd1cd9ecef3d7676fa8615a
 -----------------------------------------------------
-###Commit: c2a995d9df0b62788dbbace02656b0b523a382d3
+### Commit: c2a995d9df0b62788dbbace02656b0b523a382d3
 Update RunningOnDeviceAndroid.md
     
     Summary:
@@ -138,7 +138,7 @@ Update RunningOnDeviceAndroid.md
     
     fbshipit-source-id: 34c580acd6bf3e7788b674bd0b41bc5a1023b010
 -----------------------------------------------------
-###Commit: 93ff5799a59ca98be702af4a4236826fb578109b
+### Commit: 93ff5799a59ca98be702af4a4236826fb578109b
 Add $(inherited) to OTHER_LDFLAGS in xcodeproj template
     
     Summary:
@@ -174,7 +174,7 @@ Add $(inherited) to OTHER_LDFLAGS in xcodeproj template
     
     fbshipit-source-id: ef453ad2e822726db0159d24ec93e301192e21de
 -----------------------------------------------------
-###Commit: 99158f0d5ae8f0a31db17b752bc8d3db0d5b4493
+### Commit: 99158f0d5ae8f0a31db17b752bc8d3db0d5b4493
 Better error message for RawText outside <Text>
     
     Summary: public
@@ -194,9 +194,9 @@ Better error message for RawText outside <Text>
     
     fb-gh-sync-id: 5295a44a028c7be79d60dbaf0b5d59fd0a56fdde
 -----------------------------------------------------
-##Repository: javascript/puppeteer
-##Repository: javascript/meteor
-###Commit: 0fbb97432c9f5c9b4c5958e719ca32d32a3922f1
+## Repository: javascript/puppeteer
+## Repository: javascript/meteor
+### Commit: 0fbb97432c9f5c9b4c5958e719ca32d32a3922f1
 Fix ENOTEMPTY and EPERM errors on Windows.
     
     Windows began suffering from cryptic ENOTEMPTY and EPERM errors between
@@ -207,7 +207,7 @@ Fix ENOTEMPTY and EPERM errors on Windows.
     glad that it did, because otherwise this mistake would merely have been a
     performance problem, and might not have been noticed before the release.
 -----------------------------------------------------
-###Commit: 1a380f5532a95236eb066d44398d9a9c7b34b37f
+### Commit: 1a380f5532a95236eb066d44398d9a9c7b34b37f
 Improve minifiers to capture error from UglifyJS.
     
     The error messages which come from UglifyJS tend to be quite cryptic, as
@@ -228,7 +228,7 @@ Improve minifiers to capture error from UglifyJS.
     Crude, but incredibly helpful in diagnosing this problem until a better
     solution is reached.
 -----------------------------------------------------
-###Commit: 0e22996547f4529ec02079846360abcde535a4de
+### Commit: 0e22996547f4529ec02079846360abcde535a4de
 Check type of `onException` argument to `bindEnvironment`
     
     Meteor.bindEnvironment() can have an invalid error handler accidentally
@@ -236,7 +236,7 @@ Check type of `onException` argument to `bindEnvironment`
     issue is not easy to find. This can cause a cryptic error message about
     an exception being thrown when onException() itself is being called.
 -----------------------------------------------------
-###Commit: 2ab2ddedcce1d090249b04c97955bf33c3f56a8a
+### Commit: 2ab2ddedcce1d090249b04c97955bf33c3f56a8a
 Clean up ReactiveDict#setDefault and add test
     
     This is pure behavior-preserving clean-up, removing a cryptic comment
@@ -244,7 +244,7 @@ Clean up ReactiveDict#setDefault and add test
     a string, which has been true since this code was written, so there
     was never any reason for this code or comment to be written this way.
 -----------------------------------------------------
-###Commit: 45752e3203ee2699d1990dd8e899761756058410
+### Commit: 45752e3203ee2699d1990dd8e899761756058410
 parseConstraint -> parsePackageConstraint
     
     In the return value, `name` has been changed to `package`,
@@ -266,21 +266,21 @@ parseConstraint -> parsePackageConstraint
     method of it, at least), but it is considered an internal API so we
     are not worrying too much about it.
 -----------------------------------------------------
-###Commit: e850fd33a3eba416f4f7d80804022842a389ae56
+### Commit: e850fd33a3eba416f4f7d80804022842a389ae56
 allow `this` when no data context
     
     (rather than throwing a cryptic error)
 -----------------------------------------------------
-##Repository: javascript/express
-##Repository: javascript/atom
-##Repository: javascript/vue
-##Repository: javascript/jquery
-##Repository: javascript/three.js
-##Repository: javascript/angular.js
-##Repository: javascript/webpack
-##Repository: javascript/d3
-##Repository: javascript/node
-###Commit: 2e2c015422dce973f15acb42571486e4003efddb
+## Repository: javascript/express
+## Repository: javascript/atom
+## Repository: javascript/vue
+## Repository: javascript/jquery
+## Repository: javascript/three.js
+## Repository: javascript/angular.js
+## Repository: javascript/webpack
+## Repository: javascript/d3
+## Repository: javascript/node
+### Commit: 2e2c015422dce973f15acb42571486e4003efddb
 crypto: decode missing passphrase errors
     
     When a user attempts to load an encrypted key without supplying a
@@ -293,7 +293,7 @@ crypto: decode missing passphrase errors
     Reviewed-By: Anna Henningsen <anna@addaleax.net>
     Reviewed-By: Sam Roberts <vieuxtech@gmail.com>
 -----------------------------------------------------
-###Commit: e3d9d25083fe022015d7ee6b07fe3212bb3dde2b
+### Commit: e3d9d25083fe022015d7ee6b07fe3212bb3dde2b
 test: add test-child-process-emfile fail message
     
     When the test fails (as it does frequently on FreeBSD unfortunately)
@@ -302,7 +302,7 @@ test: add test-child-process-emfile fail message
     PR-URL: https://github.com/nodejs/node/pull/3335
     Reviewed-By: Ben Noordhuis <info@bnoordhuis.nl>
 -----------------------------------------------------
-###Commit: bd42ba056afe1efe9a4f58f1274d9305c4998a1f
+### Commit: bd42ba056afe1efe9a4f58f1274d9305c4998a1f
 async-wrap: set flags using functions
     
     Setting flags using cryptic numeric object fields is confusing. Instead
@@ -311,7 +311,7 @@ async-wrap: set flags using functions
     PR-URL: https://github.com/iojs/io.js/pull/1614
     Reviewed-By: Ben Noordhuis <info@bnoordhuis.nl>
 -----------------------------------------------------
-###Commit: 979d0ca874df0383311ca06f154f6965074196ee
+### Commit: 979d0ca874df0383311ca06f154f6965074196ee
 http: cleanup setHeader()
     
     Several fields on OutgoingMessage were set after instantiation. These
@@ -328,7 +328,7 @@ http: cleanup setHeader()
     
     Signed-off-by: Trevor Norris <trev.norris@gmail.com>
 -----------------------------------------------------
-###Commit: 5757642e912c0a4de6476fc766748b6e33ac845b
+### Commit: 5757642e912c0a4de6476fc766748b6e33ac845b
 node: allow nextTick infinite recursion
     
     Removing the depth counter while processing the nextTickQueue made it
@@ -339,10 +339,10 @@ node: allow nextTick infinite recursion
     This is being done to prevent possible cryptic FATAL ERROR messages from
     popping up, and issues being posted about them.
 -----------------------------------------------------
-##Repository: javascript/reveal.js
-##Repository: javascript/redux
-##Repository: javascript/react
-###Commit: 1f74eca9937ad6f19b6291d21edfb8747bae88ca
+## Repository: javascript/reveal.js
+## Repository: javascript/redux
+## Repository: javascript/react
+### Commit: 1f74eca9937ad6f19b6291d21edfb8747bae88ca
 Add warning for rendering into container that was updated manually (#10210)
     
     * RFC Add warning for rendering into container that was updated manually
@@ -689,13 +689,13 @@ Add warning for rendering into container that was updated manually (#10210)
     **issue:**
     https://github.com/facebook/react/issues/8854
 -----------------------------------------------------
-###Commit: 54d3134da2c87fe96eae0df1ee1b05a4f0bbf117
+### Commit: 54d3134da2c87fe96eae0df1ee1b05a4f0bbf117
 Add `ReactProps.func`
     
     This adds ReactProps.func so people don't need to write the
     slightly-more-cryptic ReactProps.instanceOf(Function). We should have
     had this all along.
 -----------------------------------------------------
-##Repository: javascript/axios
-##Repository: javascript/Font-Awesome
-##Repository: javascript/create-react-app
+## Repository: javascript/axios
+## Repository: javascript/Font-Awesome
+## Repository: javascript/create-react-app
