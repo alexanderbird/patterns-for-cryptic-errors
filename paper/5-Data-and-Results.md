@@ -20,3 +20,25 @@
   - https://github.com/expressjs/express
   - https://github.com/chartjs/Chart.js
   - https://github.com/meteor/meteor
+
+### C#
+  - https://github.com/shadowsocks/shadowsocks-windows
+  - https://github.com/CodeHubApp/CodeHub
+  - https://github.com/PowerShell/PowerShell
+  - https://github.com/Wox-launcher/Wox
+  - https://github.com/mxgmn/WaveFunctionCollapse
+  - https://github.com/dotnet/coreclr
+  - https://github.com/aspnet/AspNetCore
+  - https://github.com/dotnet-architecture/eShopOnContainers
+  - https://github.com/aspnet/EntityFrameworkCore
+  - https://github.com/ShareX/ShareX
+  - https://github.com/0xd4d/dnSpy
+  - https://github.com/aspnet/Blazor
+  - https://github.com/mono/mono
+  - https://github.com/SignalR/SignalR
+  - https://github.com/icsharpcode/ILSpy
+  - https://github.com/JamesNK/Newtonsoft.Json
+  - https://github.com/NancyFx/Nancy
+  - https://github.com/aspnetboilerplate/aspnetboilerplate
+  - https://github.com/AvaloniaUI/Avalonia
+  - https://github.com/AutoMapper/AutoMapper

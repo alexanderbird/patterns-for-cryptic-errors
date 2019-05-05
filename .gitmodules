@@ -58,3 +58,63 @@
 [submodule "data/javascript/meteor"]
 	path = data/javascript/meteor
 	url = https://github.com/meteor/meteor
+[submodule "data/c-sharp/shadowsocks-windows"]
+	path = data/c-sharp/shadowsocks-windows
+	url = https://github.com/shadowsocks/shadowsocks-windows
+[submodule "data/c-sharp/CodeHub"]
+	path = data/c-sharp/CodeHub
+	url = https://github.com/CodeHubApp/CodeHub
+[submodule "data/c-sharp/PowerShell"]
+	path = data/c-sharp/PowerShell
+	url = https://github.com/PowerShell/PowerShell
+[submodule "data/c-sharp/Wox"]
+	path = data/c-sharp/Wox
+	url = https://github.com/Wox-launcher/Wox
+[submodule "data/c-sharp/WaveFunctionCollapse"]
+	path = data/c-sharp/WaveFunctionCollapse
+	url = https://github.com/mxgmn/WaveFunctionCollapse
+[submodule "data/c-sharp/coreclr"]
+	path = data/c-sharp/coreclr
+	url = https://github.com/dotnet/coreclr
+[submodule "data/c-sharp/AspNetCore"]
+	path = data/c-sharp/AspNetCore
+	url = https://github.com/aspnet/AspNetCore
+[submodule "data/c-sharp/EntityFrameworkCore"]
+	path = data/c-sharp/EntityFrameworkCore
+	url = https://github.com/aspnet/EntityFrameworkCore
+[submodule "data/c-sharp/dnSpy"]
+	path = data/c-sharp/dnSpy
+	url = https://github.com/0xd4d/dnSpy
+[submodule "data/c-sharp/mono"]
+	path = data/c-sharp/mono
+	url = https://github.com/mono/mono
+[submodule "data/c-sharp/SignalR"]
+	path = data/c-sharp/SignalR
+	url = https://github.com/SignalR/SignalR
+[submodule "data/c-sharp/ILSpy"]
+	path = data/c-sharp/ILSpy
+	url = https://github.com/icsharpcode/ILSpy
+[submodule "data/c-sharp/Newtonsoft.Json"]
+	path = data/c-sharp/Newtonsoft.Json
+	url = https://github.com/JamesNK/Newtonsoft.Json
+[submodule "data/c-sharp/Nancy"]
+	path = data/c-sharp/Nancy
+	url = https://github.com/NancyFx/Nancy
+[submodule "data/c-sharp/aspnetboilerplate"]
+	path = data/c-sharp/aspnetboilerplate
+	url = https://github.com/aspnetboilerplate/aspnetboilerplate
+[submodule "data/c-sharp/Avalonia"]
+	path = data/c-sharp/Avalonia
+	url = https://github.com/AvaloniaUI/Avalonia
+[submodule "data/c-sharp/AutoMapper"]
+	path = data/c-sharp/AutoMapper
+	url = https://github.com/AutoMapper/AutoMapper
+[submodule "data/c-sharp/eShopOnContainers"]
+	path = data/c-sharp/eShopOnContainers
+	url = https://github.com/dotnet-architecture/eShopOnContainers
+[submodule "data/c-sharp/ShareX"]
+	path = data/c-sharp/ShareX
+	url = https://github.com/ShareX/ShareX
+[submodule "data/c-sharp/Blazor"]
+	path = data/c-sharp/Blazor
+	url = https://github.com/aspnet/Blazor
