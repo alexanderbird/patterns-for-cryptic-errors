@@ -1,8 +1,9 @@
-# Search: 'myster'
+# 'myster' in top C# repos
 ## Repository: c-sharp/AspNetCore
 ### Commit: 46136e91aba8ad468b4fd2af3f89a5bca7434172
 Resolve **myster**ious runtime errors caused because Microsoft.Extensions.DependencyModel v1.0.1-beta-000933 does not exist on NuGet.org
 -----------------------------------------------------
+
 ## Repository: c-sharp/Newtonsoft.Json
 ## Repository: c-sharp/EntityFrameworkCore
 ## Repository: c-sharp/AutoMapper
@@ -14,6 +15,7 @@ Resolve **myster**ious runtime errors caused because Microsoft.Extensions.Depend
 ### Commit: 19dd28ea146a54459686134bd3001ffa5f45cbcb
 Added the changes that were **myster**iously lost during the merge.
 -----------------------------------------------------
+
 ## Repository: c-sharp/coreclr
 ### Commit: 227afb9da20a66791426e779959f86bed80f166a
 Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
@@ -35,6 +37,7 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  > Decommit still uses mmap so that we don't have to keep track of dirty pages and
  > so that the pages are really returned to the system in decommit.
 -----------------------------------------------------
+
 ## Repository: c-sharp/ShareX
 ## Repository: c-sharp/PowerShell
 ## Repository: c-sharp/mono
@@ -50,6 +53,8 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  > safe, so it would be perfectly fine for Stream.ReadByte () to do what we do
  > here...
 -----------------------------------------------------
+
+
 ### Commit: e6164da1dc72638e4d684a952968b0dbec267aa8
 [linker] do not use System.IO.Path on assembly resource names
  > 
@@ -73,6 +78,8 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  > 
  >  thus we use just string comparison
 -----------------------------------------------------
+
+
 ### Commit: 5d4ff596a7871e2db2c6b236020c665268cd8470
 [semaphore] Fix mono_sem_wait() for Darwin, clean up mono_sem_post().
  > 
@@ -81,6 +88,8 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  > return in the SGen workers code when it shouldn't, which caused a
  > **myster**ious assertion failure.
 -----------------------------------------------------
+
+
 ### Commit: d9faabbc78794f58945af20489d0d19515707365
 2005-08-18  Sebastien Pouliot  <sebastien@ximian.com>
  > 
@@ -1003,6 +1012,8 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  > 
  > svn path=/trunk/mcs/; revision=48919
 -----------------------------------------------------
+
+
 ### Commit: 7ec6a0f2067b90fe9f7aa32ba5c9ab8da14fc769
 2003-12-04  Gonzalo Paniagua Javier <gonzalo@ximian.com>
  > 
@@ -1011,6 +1022,8 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  > 
  > svn path=/trunk/mcs/; revision=20756
 -----------------------------------------------------
+
+
 ### Commit: 5d592bb366bfdb82e78a0975795ab592fbce7fc5
 2002-12-21  Ravi Pratap  <ravi@ximain.com>
  > 
@@ -1019,6 +1032,7 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  > 
  > svn path=/trunk/mcs/; revision=9808
 -----------------------------------------------------
+
 ## Repository: c-sharp/Avalonia
 ## Repository: c-sharp/ILSpy
 ## Repository: c-sharp/eShopOnContainers

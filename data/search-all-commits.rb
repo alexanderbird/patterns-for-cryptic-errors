@@ -16,9 +16,19 @@ class SearchResults
         .map{|line| line.sub(/^    +/, ' ')}
         .join("\n > ")
       result += "\n-----------------------------------------------------"
+      result += "\n\n"
     end
     result.gsub(@search, "**#{@search}**")
   end
+end
+
+def humanize_language language
+  {
+    "javascript" => "JavaScript",
+    "c-sharp" => "C#",
+    "python" => "Python",
+    "ruby" => "Ruby"
+  }[language] || language
 end
 
 Clamp do
@@ -26,7 +36,7 @@ Clamp do
   parameter "search", "term to search for in the git logs", attribute_name: :search
 
   def execute
-    puts "# Search: '#{search}'"
+    puts "# '#{search}' in top #{humanize_language directory} repos"
     repos = Dir.entries("./#{directory}/").select {|d| d != "." && d != ".." }
     repos.each do |repo|
       puts search_in_repo(repo)

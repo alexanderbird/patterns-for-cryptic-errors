@@ -1,4 +1,4 @@
-# Search: 'cryptic'
+# 'cryptic' in top C# repos
 ## Repository: c-sharp/AspNetCore
 ### Commit: d10a6293bd451c2d523f079f9daaaa26841a0f78
 Discover hub methods at startup time (#503)
@@ -7,6 +7,7 @@ Discover hub methods at startup time (#503)
  > - Errors will show up earlier as a result instead of **cryptic**
  > first connect errors.
 -----------------------------------------------------
+
 ## Repository: c-sharp/Newtonsoft.Json
 ## Repository: c-sharp/EntityFrameworkCore
 ## Repository: c-sharp/AutoMapper
@@ -18,6 +19,7 @@ Discover hub methods at startup time (#503)
 ### Commit: 50aba6137ea18acb9a1e0c1c5851ccfe4260849f
 DefaultFileSystemReader: if directory does not exist, return empty list of file names. This fixes a **cryptic** TinyIoC exception that is thrown if the root path provider points to a path, or calculates a path that does not exist.
 -----------------------------------------------------
+
 ## Repository: c-sharp/coreclr
 ## Repository: c-sharp/ShareX
 ## Repository: c-sharp/PowerShell
@@ -32,6 +34,7 @@ Fix **cryptic** Pester failure
  > Removing the Clear-Variable directive eliminates this error, and is not
  > necessary for the Pester test itself.
 -----------------------------------------------------
+
 ## Repository: c-sharp/mono
 ### Commit: 51e3be76db2ca9230ce707f2054e1ee6932f6f7b
 [wasm] Wasm Websocket support (#12615)
@@ -77,6 +80,8 @@ Fix **cryptic** Pester failure
  > 
  > * Add WebAssembly.Net.WebSockets assemblies to package
 -----------------------------------------------------
+
+
 ### Commit: dd5f9b8659b36e79a15966d8609cf26a8bae2cc8
 [wasm] Fix crash with delegates. (#12464)
  > 
@@ -87,9 +92,13 @@ Fix **cryptic** Pester failure
  > - Add reference to `System.Delegate.DynamicInvoke` to the `WebAssembly.Bindings` linker xml file so the linker knows not to strip the code.
  > - Add detailed error messages in case something else goes wrong so the crash is not so **cryptic**.
 -----------------------------------------------------
+
+
 ### Commit: 69d5baed9f62c995082b04647a69db445520d7e2
 Name the llvm methods using the debug symbol by default, instead of using the **cryptic** m_<token> name.
 -----------------------------------------------------
+
+
 ### Commit: a925966529011ff930f11797a7c4f2bf1333fb1e
 2009-03-12  Atsushi Enomoto  <atsushi@ximian.com>
  > 
@@ -100,6 +109,7 @@ Name the llvm methods using the debug symbol by default, instead of using the **
  > 
  > svn path=/trunk/mcs/; revision=129155
 -----------------------------------------------------
+
 ## Repository: c-sharp/Avalonia
 ## Repository: c-sharp/ILSpy
 ## Repository: c-sharp/eShopOnContainers

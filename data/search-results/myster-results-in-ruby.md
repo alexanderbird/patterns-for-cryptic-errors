@@ -1,4 +1,4 @@
-# Search: 'myster'
+# 'myster' in top Ruby repos
 ## Repository: ruby/metasploit-framework
 ### Commit: 328191aa51492b0d724a7423634f4dd8fb1e1d17
 Bump mime-types to 2.6.1
@@ -11,17 +11,25 @@ Bump mime-types to 2.6.1
  > 
  > https://github.com/todb-r7/ruby-mime-types/compare/v2.4.3...v2.6.1
 -----------------------------------------------------
+
+
 ### Commit: 67c0f590a0de286445bef20f99a419d1ecc06a61
 Restoring **myster**iusly changed db constraints...
 -----------------------------------------------------
+
+
 ### Commit: 3d4d6e986078697fabae5dcd5c641a73d51ba0a8
 Crawler aux mixin updated to catch the **myster**ious and anonymous timeout exception and re-raise it as a Timeout::Error
 -----------------------------------------------------
+
+
 ### Commit: 5dd866ed4a6859b11122d7b809eb354eaff32c58
 Fixed print_status to include rhost:rport
  > 
  > Also don't let the failed user:pass be a **myster**y to the user.
 -----------------------------------------------------
+
+
 ### Commit: b1178686cf1cbfc49392ccdc7ef2146aef8853d3
 Fixes #3988. Adds a command execution module for PostgreSQL by uploading a UDF library and adding sys_exec() as a temporary function. Requires the target to be Windows, uses Bernardo Damele A. G.'s binaries.
  > 
@@ -31,12 +39,14 @@ Fixes #3988. Adds a command execution module for PostgreSQL by uploading a UDF l
  > 
  > git-svn-id: file:///home/svn/framework3/trunk@12111 4d416f70-5f16-0410-b530-b9f4589650da
 -----------------------------------------------------
+
 ## Repository: ruby/jekyll
 ### Commit: 4b476f70e67a2a78777d3771ec478e993ab0dd4c
 script/fmt: prefix rubocop version with "Rubocop"
  > 
  > This makes it obvious what those **myster**ious numbers are.
 -----------------------------------------------------
+
 ## Repository: ruby/devise
 ## Repository: ruby/sinatra
 ## Repository: ruby/mastodon
@@ -46,11 +56,14 @@ Merge pull request #981 from jordansissel/abort-on-not-threadsafe-filters
  > 
  > Restore the fitler thread safety check that was **myster**iously lost, I thi...
 -----------------------------------------------------
+
+
 ### Commit: c87337011892bfcb562cba3dc34dbd495b43d417
 Restore the fitler thread safety check that was **myster**iously lost, I think, in the new pipeline rewrite for 1.2.0 (LOGSTASH-1828)
  > 
  > Also mark the metrics filter as not threadsafe.
 -----------------------------------------------------
+
 ## Repository: ruby/vagrant
 ## Repository: ruby/devdocs
 ## Repository: ruby/brew
@@ -79,6 +92,8 @@ synfigstudio: boneyard
  > 
  > Signed-off-by: Dominyk Tiller <dominyktiller@gmail.com>
 -----------------------------------------------------
+
+
 ### Commit: fd0a5419a958e6826e0605c3d56001b2dba8ec5a
 Blacklist graphviz: don't use superenv
  > 
@@ -86,6 +101,7 @@ Blacklist graphviz: don't use superenv
  > 
  > Fixes Homebrew/homebrew#14566.
 -----------------------------------------------------
+
 ## Repository: ruby/rubocop
 ## Repository: ruby/bootstrap-sass
 ## Repository: ruby/fastlane
@@ -94,6 +110,7 @@ Blacklist graphviz: don't use superenv
 ### Commit: 22bbc3ea73870b985dfb224af8ef1c885c6a905a
 Log backtrace when we get **myster**y meat errors in e-mail processing
 -----------------------------------------------------
+
 ## Repository: ruby/gollum
 ## Repository: ruby/capistrano
 ## Repository: ruby/diaspora
@@ -107,6 +124,8 @@ Log backtrace when we get **myster**y meat errors in e-mail processing
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@52953 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
+
 ### Commit: 135c75727d44d84422355465a42f8e9c485e8f79
 * cont.c (cont_free): remove **myster**ious fflush()
  >   introduced at r19890, maybe accidentaly.
@@ -115,6 +134,8 @@ Log backtrace when we get **myster**y meat errors in e-mail processing
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@51174 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
+
 ### Commit: cc5547a4ade99311a9fe37754083f996a6c83a2d
 Revert r51034 "st.c: use ccan linked-list"
  > 
@@ -141,6 +162,8 @@ Revert r51034 "st.c: use ccan linked-list"
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@51035 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
+
 ### Commit: 18bbd05709a4d52704ac217f30c0d9f35830b7f0
 * method.h: split rb_method_definition_t::flag to several flags.
  >   `flag' contains several categories of attributes and it makes us
@@ -174,6 +197,8 @@ Revert r51034 "st.c: use ccan linked-list"
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@50743 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
+
 ### Commit: 42a15516c05609dd2fc5a8c5863e453444c24761
 * test/ruby/test_gc.rb (test_latest_gc_info): do test separately
  >   to avoid **myster**ious behavior.
@@ -182,6 +207,8 @@ Revert r51034 "st.c: use ccan linked-list"
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@48586 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
+
 ### Commit: f365cd2c9aa4018044cc4005d1d2309faff6b58c
 * gc.c: simplify threshold of GC caused by malloc_increase.
  >   Now, malloc_limit is increased/decreased by **myster**ious logic.
@@ -206,6 +233,8 @@ Revert r51034 "st.c: use ccan linked-list"
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@43067 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
+
 ### Commit: 48b19a3a759e85a7dfaad10f8b18e594447fbc36
 dir.c: get rid of FindFirstFile bug
  > 
@@ -215,21 +244,29 @@ dir.c: get rid of FindFirstFile bug
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@41755 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
+
 ### Commit: 00d0d6eab02a7102d7e720b4cfd105210a27a85d
 * test/ruby/test_rand.rb (test_random_bytes): fold **myster**iously
  >   long line.
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@32328 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
 ## Repository: ruby/rails
 ### Commit: 3127e99d6e0d89149dca5c4815474b69012a86b7
 Simplify serializable test to avoid **myster**y deadlock
 -----------------------------------------------------
+
+
 ### Commit: c65c59ab6bbeba0f644a3216657981350c7700ff
 remove **myster**ious file added with #20105 :sparkles:
  > 
  > /cc @claudiob
 -----------------------------------------------------
+
+
 ### Commit: d214e54e7aadd15bbf872c3deae24908258e8cb8
 Fix a typo that was **myster**iously entered in previous commit
 -----------------------------------------------------
+

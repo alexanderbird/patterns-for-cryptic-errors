@@ -1,4 +1,4 @@
-# Search: 'cryptic'
+# 'cryptic' in top Ruby repos
 ## Repository: ruby/metasploit-framework
 ### Commit: 8d187b272d8e394436a57690f21a130ca77f09c1
 Some error handling on ntlm relayer
@@ -9,12 +9,15 @@ Some error handling on ntlm relayer
  > There are likely many more opportunities to catch errors, but this is
  > the most obvious.
 -----------------------------------------------------
+
+
 ### Commit: 4369f73c7a62453b212d7304791cd03602c4ca85
 Msftidy fixes on new modules
  > 
  > Dropped a **cryptic** year reference from jducks' java module, found a
  > spurious space in thelightcosine's telnet module.
 -----------------------------------------------------
+
 ## Repository: ruby/jekyll
 ## Repository: ruby/devise
 ## Repository: ruby/sinatra
@@ -36,6 +39,7 @@ x-pack monitoring: prevent failures to emit metrics events before agent started
  > 
  > Fixes #9627
 -----------------------------------------------------
+
 ## Repository: ruby/vagrant
 ## Repository: ruby/devdocs
 ## Repository: ruby/brew
@@ -47,11 +51,14 @@ os/mac/ruby_keg: improve error reporting
  > that caused the failure, unless `--debug` was specified. Make sure to
  > output this information in all cases before re-raising the exception.
 -----------------------------------------------------
+
+
 ### Commit: 22afc5e1c7c1d2141232f85eeb1436061ddfd835
 Use our own popen implementation in Formula.system
  > 
  > The rationale here is that the --verbose mode had a bug where it didn't escape its parameters properly. Which caused ocassionally **cryptic** issues.
 -----------------------------------------------------
+
 ## Repository: ruby/rubocop
 ### Commit: 81a09dd467927bd9ef125461f91316e1866ce5df
 [Fix #1346] Add 'use_perl_names' style for Style/SpecialGlobalVars
@@ -59,6 +66,7 @@ Use our own popen implementation in Formula.system
  > This is for people who like squinting at **cryptic** variable names and trying
  > to remember what they are for.
 -----------------------------------------------------
+
 ## Repository: ruby/bootstrap-sass
 ## Repository: ruby/fastlane
 ## Repository: ruby/homebrew-cask
@@ -69,6 +77,7 @@ Use our own popen implementation in Formula.system
 ### Commit: f4d996d644396af4526ac0dafb639bc74ccbbbb4
 do not break non heroku setups/do not confront them with a useless **cryptic** error message/do not use bundler 1.2 features but lock 1.1 in the Gemfile
 -----------------------------------------------------
+
 ## Repository: ruby/CocoaPods
 ## Repository: ruby/ruby
 ### Commit: f7bd7d6f1f499726cc4aca99714e1a0050dbd92b
@@ -78,6 +87,7 @@ do not break non heroku setups/do not confront them with a useless **cryptic** e
  > 
  > git-svn-id: svn+ssh://ci.ruby-lang.org/ruby/trunk@52808 b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 -----------------------------------------------------
+
 ## Repository: ruby/rails
 ### Commit: 82f7dc6178f86e5e2dd82f9e528475a6acee6cd8
 Tell users how to assign a $EDITOR.
@@ -95,6 +105,8 @@ Tell users how to assign a $EDITOR.
  > 
  > Fixes #28143.
 -----------------------------------------------------
+
+
 ### Commit: 50c53340824de2a8000fd2d5551cbce2603dc34a
 Correctly deallocate prepared statements if we fail inside a transaction
  > 
@@ -155,6 +167,8 @@ Correctly deallocate prepared statements if we fail inside a transaction
  > Because the outdated statement has been deallocated, we can expect the
  > transaction to succeed on the second try.
 -----------------------------------------------------
+
+
 ### Commit: 21a386bb0726cce4f4a5d64d55fbb55d8a2b9837
 Ensure `has_and_belongs_to_many` works with `belongs_to_required_by_default`
  > 
@@ -169,11 +183,16 @@ Ensure `has_and_belongs_to_many` works with `belongs_to_required_by_default`
  > work in a case that we know is not publicly supported, we can just turn
  > off this validation to match the behavior of 4.2 and earlier.
 -----------------------------------------------------
+
+
 ### Commit: 41fb066394245c5fd0ffb13cc5f755abff7e1081
 Replace a bit of **cryptic** code in fixtures:load rake task with plain stupid Ruby
 -----------------------------------------------------
+
+
 ### Commit: f1cfd1248734ceaa50c1857f33d7ee0ecfdce3e6
 Allow script/about to run in production mode instead of failing with a **cryptic** const_missing error.
  > 
  > [#370 state:resolved]
 -----------------------------------------------------
+

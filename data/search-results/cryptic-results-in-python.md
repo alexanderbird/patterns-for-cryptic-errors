@@ -1,4 +1,4 @@
-# Search: 'cryptic'
+# 'cryptic' in top Python repos
 ## Repository: python/keras
 ## Repository: python/mitmproxy
 ## Repository: python/ZeroNet
@@ -18,6 +18,8 @@ keep only basic changes
  > - sticky menu.
  > - checkboxes and counters in menu.
 -----------------------------------------------------
+
+
 ### Commit: fcfb06b058aa49fcffd36b3ad01fbf62cd71bd81
 nbconvert requires mistune
  > 
@@ -40,19 +42,24 @@ nbconvert requires mistune
  > 
  > FAILED (errors=1
 -----------------------------------------------------
+
 ## Repository: python/certbot
 ### Commit: 39ae9bdf43c27aaa16886bfd63db965415a4718c
 Document a somewhat **cryptic** function
 -----------------------------------------------------
+
 ## Repository: python/scrapy
 ### Commit: e87dc377412182ba8f7cad62c41a569399fc408f
 Merge pull request #775 from kmike/rename-sflo
  > 
  > rename "sflo" local variables to less **cryptic** "log_observer"
 -----------------------------------------------------
+
+
 ### Commit: 9d3aa945f4508afbe6935bd662cdf21ee65a2210
 rename "sflo" local variables to less **cryptic** "log_observer"
 -----------------------------------------------------
+
 ## Repository: python/requests
 ## Repository: python/ansible
 ### Commit: 2b48c0187c4f2dd6e75fbd16a6270e7e52a1aee3
@@ -80,6 +87,8 @@ Warn of standard behavior of 'default' key store (#49903)
  > 
  > Co-Authored-By: tdietrich513 <tom.dietrich@gmail.com>
 -----------------------------------------------------
+
+
 ### Commit: b0cc240665b1d86c163c92b580fe3874c011ca17
 New module: xenserver_guest - manages XenServer VMs (#41041)
  > 
@@ -171,6 +180,8 @@ New module: xenserver_guest - manages XenServer VMs (#41041)
  >  - xenserver_guest module: some code cleanup.
  >  - xenserver_guest module: bumped version_added to 2.8.
 -----------------------------------------------------
+
+
 ### Commit: 05e5698472bfc7015dfa05603b0ae630b1bb8fd8
 powershell.ps1: Validate Windows paths (#26488)
  > 
@@ -183,17 +194,22 @@ powershell.ps1: Validate Windows paths (#26488)
  > We also had to fix the following modules:
  > - win_shortcut: `src` can be a URL
 -----------------------------------------------------
+
+
 ### Commit: 146a0f1cb767a53af67017ac9883c71dbf869b4b
 FreeBSD 10 compatibility fix
  > 
  > On FreeBSD the whitespace around the ``=`` triggers a (**cryptic**) ``no such file or directory`` error. removing the whitespace like above fixes this.
 -----------------------------------------------------
+
+
 ### Commit: dbde446358106c91d65f82eea2ce1fe86f60d6d1
 In the route53 module, documenting that TXT and SPF requests
  > must be surrounded by quotes.
  > 
  > Otherwise you get a **cryptic** error message from Route 53.
 -----------------------------------------------------
+
 ## Repository: python/django-rest-framework
 ## Repository: python/cpython
 ### Commit: 4864a619dc1cc9092780ccf5a6327e8abf66133d
@@ -207,6 +223,8 @@ bpo-12382: Make OpenDatabase() raise better exception messages (GH-4528)
  >  File "<stdin>", line 1, in <module>
  >  _msi.MSIError: unknown error 6e
 -----------------------------------------------------
+
+
 ### Commit: 5837d0418f47933b2e3c139bdee8a79c248a943c
 bpo-31588: Validate return value of __prepare__() methods (GH-3764)
  > 
@@ -219,6 +237,8 @@ bpo-31588: Validate return value of __prepare__() methods (GH-3764)
  > 
  > Patch by Oren Milman.
 -----------------------------------------------------
+
+
 ### Commit: 573d1df95b3f49e7796811487ae15ecbb9a48c5c
 Blocked revisions 72004,72040,72052,72054,72056,72094,72107,72111,72114-72115,72117,72119,72126-72127,72131,72133-72135,72137,72155,72167,72173,72178,72183-72184,72189,72191,72197-72200,72202,72210,72213,72219,72223,72225-72226,72237,72241,72246,72250,72253,72257,72267,72269,72273,72283-72284,72303,72306,72314,72322,72324,72326,72328,72335,72343,72348,72361,72368,72377,72382,72388,72392,72404,72406,72443,72445,72451,72454,72461,72464,72468-72469,72474,72476,72487-72489,72494-72495,72497,72500,72506,72508-72510,72512,72516-72518,72525-72526,72535,72539,72543,72547,72551,72560,72570-72571,72582-72583,72605,72616,72618,72624,72630,72654-72655,72658,72669,72671,72681,72686,72689-72690,72692-72694,72696,72698-72699,72721,72727,72730,72736,72746,72764,72768,72774,72776-72777,72786,72789,72791,72796,72799,72805,72812-72813,72817,72823,72833,72879-72880,72890-72891,72898,72900,72903,72905,72907,72909,72912,72920-72921,72923-72924,72940,72956-72958,72972-72973,72979,72981,72986 via svnmerge
  > 
@@ -1064,6 +1084,8 @@ Blocked revisions 72004,72040,72052,72054,72056,72094,72107,72111,72114-72115,72
  >   using 'tar' then 'gzip' in the test, because 'tar -czf' is not supported under some platforms
  > ................
 -----------------------------------------------------
+
+
 ### Commit: 281f6e2a44ea818ad467fc63ae6e9a41955cbad6
 Blocked revisions 70615,70618-70621,70624,70856,70864,71004,71043,71208,71721,72582-72583,72812,72923,73151,73247,73839,74007,74095,75095 via svnmerge
  > 
@@ -1179,6 +1201,8 @@ Blocked revisions 70615,70618-70621,70624,70856,70864,71004,71043,71208,71721,72
  >   Test creation moved from TestProgram.parseArgs to TestProgram.createTests exclusively. Issue 6956.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: fa0d7034339fee79cf5f095ee48488ea13a3fc4b
 Merged revisions 72506,72525-72526,72551,72558,72616,72654-72655,72689,72745,72750,72802,72812,72822,72824,72826-72827,72833,72876,72890,72923,72946,73026,73042,73045,73047,73065,73068-73069 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -1302,9 +1326,13 @@ Merged revisions 72506,72525-72526,72551,72558,72616,72654-72655,72689,72745,727
  >   fix signature
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 04516611e7e4ceaef6fef9413719e9cb5b4bb087
 Make assertSequenceEqual error messages less **cryptic**, particularly for nested sequences.
 -----------------------------------------------------
+
+
 ### Commit: 8943caf716095082d6277110919a1c4c63487820
 Merged revisions 70642,70648,70656,70661,70765,70773,70789,70824-70825,70828,70830,70832,70836,70838,70842,70851,70855,70857-70858 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -1387,6 +1415,8 @@ Merged revisions 70642,70648,70656,70661,70765,70773,70789,70824-70825,70828,708
  >   #5241: document missing U in regex howto.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: d23f8224e9bce36f231b6fcb3e3053fc1af27c6f
 Merged revisions 70712,70714,70764-70765,70769-70771,70773,70776-70777,70788-70789,70824,70828,70832,70836,70842,70851,70855,70857,70866-70872,70883,70885,70893-70894,70896-70897,70903,70905-70907,70915,70927,70933,70951,70960,70962-70964,70998,71001,71006,71008,71010-71011,71019,71037,71056,71094,71101-71103,71106,71119,71123,71149-71150,71203,71212,71214-71217,71221,71240 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -1683,6 +1713,8 @@ Merged revisions 70712,70714,70764-70765,70769-70771,70773,70776-70777,70788-707
  >   #5370: doc update about unpickling objects with custom __getattr__ etc. methods.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 8a08a667b46ec91f3adf26e495b5acfdb736c166
 Blocked revisions 70176,70178,70197,70261,70267,70271,70273,70286,70290,70292-70293,70295-70296,70298,70300,70305,70315,70319,70368,70443,70454,70463,70466,70470-70473,70475,70477,70479,70485,70531,70533,70538,70544,70552-70553,70564,70601,70651,70672,70702,70711-70714,70716,70719,70723,70734,70747,70757,70764-70765,70768-70773,70775-70777,70788-70789,70807,70821,70824-70825,70828,70830,70832,70836-70838,70842,70844,70851,70855-70858,70864,70866-70874,70876-70878,70883,70885,70893-70894,70896-70897,70901-70908,70912,70915,70918,70927,70933-70934,70939-70940,70944,70951,70958,70960,70962-70964,70968-70969,70980-70981,70986,70993-70994,70998,71001,71004,71006,71008-71011,71019,71022-71024,71026,71029,71031-71033,71036-71037,71041,71043,71056,71058-71059,71070,71073,71075,71078 via svnmerge
  > 
@@ -2417,14 +2449,20 @@ Blocked revisions 70176,70178,70197,70261,70267,70271,70273,70286,70290,70292-70
  >   Localize the function lookup in timeit.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 22717dffba6827c430afc078c58cec05331de7ed
 #837577: note **cryptic** return value of spawn*e on invalid env dicts.
 -----------------------------------------------------
+
+
 ### Commit: bc2285eb60e5467cc6be41f6877b9d609b140de9
 Conversion specification, used by a new path through latex2esis.py.
  > The specific markup conversion is coded here instead of an even more
  > **cryptic** table in the code of latex2esis.py.
 -----------------------------------------------------
+
+
 ### Commit: d10552379dd85f432545ba3c9199d2b232593f30
 Two fixes to find_class:
  > 
@@ -2441,6 +2479,7 @@ Two fixes to find_class:
  > with a "bad arguments to internal function" if passed anything other
  > than a string.
 -----------------------------------------------------
+
 ## Repository: python/bert
 ## Repository: python/home-assistant
 ### Commit: 4796d674e6124d7c4fc78badca6e1760064a5bcf
@@ -2457,6 +2496,8 @@ Clean up device tracker tests (#23695)
  > 
  > * Replace calls  to device_tracker.async_setup
 -----------------------------------------------------
+
+
 ### Commit: 217782cd05eb04e08103eeea577db12318284944
 Cache GTFS metadata and expose utility attributes (breaking change) (#20966)
  > 
@@ -2491,16 +2532,20 @@ Cache GTFS metadata and expose utility attributes (breaking change) (#20966)
  >   - [x] Local tests pass with `tox`. **Your PR cannot be merged unless tests pass**
  >   - [x] There is no commented out code in this PR.
 -----------------------------------------------------
+
+
 ### Commit: 25cb7c652bf1a266829eea142196d1b9fdcec5a2
 Blink version bump (#7571)
  > 
  > Bumped blink version to support automatic reauthorization when tokens expire. Changed the battery sensor call to a string version so that the battery reports back "Low" or "OK" rather than a **cryptic** integer
 -----------------------------------------------------
+
 ## Repository: python/youtube-dl
 ## Repository: python/spaCy
 ### Commit: 5bf2fd1f788ccb6e9691b6d137edfd65120ee4ef
 make the code less **cryptic**
 -----------------------------------------------------
+
 ## Repository: python/sentry
 ## Repository: python/you-get
 ## Repository: python/python-fire

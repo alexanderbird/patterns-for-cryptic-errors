@@ -1,4 +1,4 @@
-# Search: 'myster'
+# 'myster' in top Python repos
 ## Repository: python/keras
 ## Repository: python/mitmproxy
 ### Commit: 449b8b383deb8ba631bd708333c93638931d77db
@@ -6,35 +6,45 @@ controller: add **myster**iously missing comment portion
  > 
  > Thanks to @tran-tien-dat
 -----------------------------------------------------
+
+
 ### Commit: 3b53d3e393f30879420b4407583c42bb1f51563e
 fix **myster**ious tox issue
 -----------------------------------------------------
+
+
 ### Commit: 9985cf547305ccebc99de4d0b2bb86d3be26947e
 Flush after terminal output.
  > 
  > Makes behaviour on the shell less **myster**ious.
 -----------------------------------------------------
+
 ## Repository: python/ZeroNet
 ## Repository: python/face_recognition
 ## Repository: python/sqlmap
 ### Commit: a4155269c575b3a51b017d8d1a0f64619355e623
 bug fix (unicode(unicode) results in “TypeError: decoding Unicode is not supported” (http://www.red-mercury.com/blog/eclectic-tech/python-**myster**y-of-the-day/)
 -----------------------------------------------------
+
 ## Repository: python/ipython
 ### Commit: 23e3a854620839d96b58d60386fd0f9d4ccb64fc
 Fixing **myster**ious bug in IEnginePropertiesTestCase.strictDict.
  > 
  > This one was showing up as a tokenizer error.
 -----------------------------------------------------
+
 ## Repository: python/certbot
 ### Commit: 605979ce99599b93987addb24133a47b18f34d09
 Revert "Avoid dangerous and **myster**ious behaviour if someone tries to modify a config"
  > 
  > This reverts commit 83afb58a9a6099ad1e3c54097c2bb509e98f38f8.
 -----------------------------------------------------
+
+
 ### Commit: 83afb58a9a6099ad1e3c54097c2bb509e98f38f8
 Avoid dangerous and **myster**ious behaviour if someone tries to modify a config
 -----------------------------------------------------
+
 ## Repository: python/scrapy
 ### Commit: c9e48dc5ed6a2b07cf39c9e7d528d86c6d7146bc
 Disabled ImageLinkExtractor test for triggering **myster**ious leaks in libxml2
@@ -42,6 +52,7 @@ Disabled ImageLinkExtractor test for triggering **myster**ious leaks in libxml2
  > --HG--
  > extra : convert_revision : svn%3Ab85faa78-f9eb-468e-a121-7cced6da292c%40596
 -----------------------------------------------------
+
 ## Repository: python/requests
 ## Repository: python/ansible
 ### Commit: ab96bbdef9a1a42b7cf3cb08db8056994fa3aaf9
@@ -62,6 +73,8 @@ Clean up Vault docs in User Guide. (#46188)
  > 
  > * Update vault.rst
 -----------------------------------------------------
+
+
 ### Commit: 6c4f554f5a9a23b9caa1bebf616852cec171ecd8
 Provide slightly better msg on fact cache error (#18759)
  > 
@@ -71,20 +84,27 @@ Provide slightly better msg on fact cache error (#18759)
  > 
  > Fixes #18751
 -----------------------------------------------------
+
+
 ### Commit: de58f673efb9d95ec98dd36dc62c861fe6693278
 Reinstating **myster**iously truncated hubspot analytics.
 -----------------------------------------------------
+
+
 ### Commit: 9c42a4cc696665dd58b068fa8f683e9aa792d9f9
 Merge pull request #12595 from amenonsen/fixups-1
  > 
  > Remove **myster**ious old cruft
 -----------------------------------------------------
+
+
 ### Commit: 49b35ad5dd88956d09a9c505e86ec03a3210790c
 Remove **myster**ious old cruft
  > 
  > The two lines were added in 2673eb0a and modified in 60e1a1f8, but foo
  > is completely unused. Removing it doesn't break anything: out it goes!
 -----------------------------------------------------
+
 ## Repository: python/django-rest-framework
 ## Repository: python/cpython
 ### Commit: 1eaa1169c522727b1911b798d45c8984992bd179
@@ -95,6 +115,8 @@ Add a minimal unit test for Python/frozen.c. (#2995)
  > so can cause test_importlib to crash in **myster**ious ways.  Add an
  > explict unit test to make it easier to track down the problem.
 -----------------------------------------------------
+
+
 ### Commit: 56dadf7d021691634d52b8b310cdd4a1fe872c65
 Merge fix from 3.3 into default.
  > 
@@ -107,6 +129,8 @@ Merge fix from 3.3 into default.
  > 
  > Why the Windows buildbots didn't fail test_sax remains a **myster**y :-(
 -----------------------------------------------------
+
+
 ### Commit: 9d2e3a1e2f248c75bd73874ac42ba77d4f7c4854
 Fix issue 18889: test_sax: multiple failures on Windows desktop.
  > 
@@ -117,12 +141,16 @@ Fix issue 18889: test_sax: multiple failures on Windows desktop.
  > 
  > Why the Windows buildbots didn't fail test_sax remains a **myster**y :-(
 -----------------------------------------------------
+
+
 ### Commit: 9deedf696eeb9a015118d1d0c76bf8318f2190d2
 Re-apply distutils2 changes lost before the merge of packaging.
  > 
  > wrap_text was removed in favor of standard textwrap but the removal of the
  > function was lost in a bad merge; a change in sdist **myster**iously disappeared.
 -----------------------------------------------------
+
+
 ### Commit: 730d12f0ca40fef2127976a486d095e7db870c6e
 Blocked revisions 86577,88203,88252 via svnmerge
  > 
@@ -158,6 +186,8 @@ Blocked revisions 86577,88203,88252 via svnmerge
  >   Initial patch by Victor Stinner, validated and expanded by R. David Murray.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 11902c8173635ff878e1321a4713b5a80619b3ce
 Blocked revisions 73911,78780,80757,86577,87228,88197,88199,88203,88252 via svnmerge
  > 
@@ -252,6 +282,8 @@ Blocked revisions 73911,78780,80757,86577,87228,88197,88199,88203,88252 via svnm
  >   Initial patch by Victor Stinner, validated and expanded by R. David Murray.
  > ................
 -----------------------------------------------------
+
+
 ### Commit: b7deff1ddc2702c7adb18bc22c484103d9460601
 #9124: mailbox now accepts binary input and uses binary internally
  > 
@@ -269,9 +301,13 @@ Blocked revisions 73911,78780,80757,86577,87228,88197,88199,88203,88252 via svnm
  > 
  > Initial patch by Victor Stinner, validated and expanded by R. David Murray.
 -----------------------------------------------------
+
+
 ### Commit: f149e45a4e3311c2eb6ce63aa0b00b6dcacf01f5
 removed a NEWS entry that cloned itself in **myster**ious circumstances
 -----------------------------------------------------
+
+
 ### Commit: d2d08c6872a118cfd910439420c380101e18c38e
 Merged revisions 81660 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/branches/py3k
@@ -305,6 +341,8 @@ Merged revisions 81660 via svnmerge from
  >   ........
  > ................
 -----------------------------------------------------
+
+
 ### Commit: 850fc85e69b31095769bdb40b3df04e70848eddd
 Fix Charset.body_encode to encode to output_charset before calling base64mime.
  > 
@@ -331,6 +369,8 @@ Fix Charset.body_encode to encode to output_charset before calling base64mime.
  >   to the charset.output_charset if it is unicode.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: e036af0ce5a564b958381e49c61a91f7a3591d1a
 Merged revisions 81658 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -347,6 +387,8 @@ Merged revisions 81658 via svnmerge from
  >   to the charset.output_charset if it is unicode.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 52dcd4590652e3c6f57a94fb57a5522880b7d72b
 #1368247: make set_charset/MIMEText automatically encode unicode _payload.
  > 
@@ -356,6 +398,8 @@ Merged revisions 81658 via svnmerge from
  > sane (it only worked by accident previously).  The _payload now is encoded
  > to the charset.output_charset if it is unicode.
 -----------------------------------------------------
+
+
 ### Commit: 53b7cef70ccc1455ea043879b9846f6aa9db1aab
 Blocked revisions 70000,70003,70007,70011,70016-70017,70022-70023,70025-70026,70049,70071,70081,70090,70094,70119-70123,70126,70131-70132,70136,70145,70149,70153,70166,70178,70188,70212,70223,70235,70261,70267,70271,70273,70275,70281,70286,70293,70295-70296,70298,70300,70305,70308,70319,70342,70364,70378,70385-70387,70389-70390,70392-70393,70395,70397,70400,70405-70406,70418,70439,70443-70444,70454,70466,70468,70470-70473,70475,70477,70479,70485,70489,70533,70538,70542,70544,70546,70550,70552-70555,70558,70561-70564,70568-70571,70574,70578,70588-70589,70598-70599,70601,70605,70611-70621,70623-70624,70626-70627,70641,70647,70651-70652,70668-70669,70671-70672,70674,70691,70698,70700-70703,70706,70711-70712,70716,70734-70735,70747,70757,70770-70772,70775,70777-70779,70788,70807,70821,70837,70844,70856,70864,70869,70872,70874,70876-70878,70883,70885-70886,70888-70892,70894,70901,70903,70910,70918,70920,70922,70930-70931,70936,70939,70951,70956,70958,70965,70968-70969,70975,70979-70981,70986,70992-70995,70997 via svnmerge
  > 
@@ -1299,6 +1343,8 @@ Blocked revisions 70000,70003,70007,70011,70016-70017,70022-70023,70025-70026,70
  >   embedded newlines in quoted field values.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 709b4c35cc6e6f5db58d9e440b5ca732b7fdb6a2
 Merged revisions 78139 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/branches/py3k
@@ -1322,6 +1368,8 @@ Merged revisions 78139 via svnmerge from
  >   ........
  > ................
 -----------------------------------------------------
+
+
 ### Commit: 1f449143f48969067d6bd7bfec6d377e993d46a5
 Merged revisions 78137 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -1338,6 +1386,8 @@ Merged revisions 78137 via svnmerge from
  >   value first before using the global, thus avoiding the error messages.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 2070be82cd91847b415c646b16393d8b1dfddabc
 Merged revisions 78137 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -1354,6 +1404,8 @@ Merged revisions 78137 via svnmerge from
  >   value first before using the global, thus avoiding the error messages.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 63e4fd7eef8d2da09634e9416dd29fc28d8b8620
 Issue 7835:  Shelve's __del__ method calls its close method, and its
  > close method refers to an identifier in the global module namespace.
@@ -1363,6 +1415,8 @@ Issue 7835:  Shelve's __del__ method calls its close method, and its
  > **myster**ious 'ignored' exceptions.  This patch checks for the possible None
  > value first before using the global, thus avoiding the error messages.
 -----------------------------------------------------
+
+
 ### Commit: 25bdfac9753b0c2660bae6665954219c8bfaa48b
 Blocked revisions 70936 via svnmerge
  > 
@@ -1374,6 +1428,8 @@ Blocked revisions 70936 via svnmerge
  >   had seemed to fail to do localization.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: e59482ec9a44a9cf8c5e066c340dc9ed78399712
 Merged revisions 70936 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -1386,15 +1442,21 @@ Merged revisions 70936 via svnmerge from
  >   had seemed to fail to do localization.
  > ........
 -----------------------------------------------------
+
+
 ### Commit: a83da3507f6f6075cce143cb118d3ddb23df981c
 Fix issue 2522.  locale.format now checks that it is passed
  > exactly one pattern, which avoids **myster**ious errors where it
  > had seemed to fail to do localization.
 -----------------------------------------------------
+
+
 ### Commit: 0e074483e7b1f99488c57296b34452fec718a895
 make the markup match that of the trunk to avoid insane spread of
  > **myster**y italics
 -----------------------------------------------------
+
+
 ### Commit: 0e3f591aeeef9ed715f8770320f4c4c7332a8794
 Merged revisions 46753-51188 via svnmerge from
  > svn+ssh://pythondev@svn.python.org/python/trunk
@@ -5036,6 +5098,8 @@ Merged revisions 46753-51188 via svnmerge from
  >   actually intended here).
  > ........
 -----------------------------------------------------
+
+
 ### Commit: 08310d6cb7d6c00733a69c62121236602e31c999
 check_node():  stop spraying **myster**y output to stderr.
  > 
@@ -5065,6 +5129,8 @@ check_node():  stop spraying **myster**y output to stderr.
  > I can't find anything on my box with MAC 00-03-8a-00-00-15, and am
  > not clear on where that comes from.
 -----------------------------------------------------
+
+
 ### Commit: 0556e9b119c6ea1068d84dd26763e4862047e808
 testUnicodeOpen():  I have no idea why, but making this
  > test clean up after itself appears to fix the test failures
@@ -5074,6 +5140,8 @@ testUnicodeOpen():  I have no idea why, but making this
  > also enough to fix the **myster**y failures.  Doesn't hurt
  > to fix them twice :-)
 -----------------------------------------------------
+
+
 ### Commit: dbb82f623ff04f004aa97e3a93185a0bdda7ad2a
 AutoFileTests.tearDown():  Removed **myster**ious undocumented
  > try/except.  Remove TESTFN.
@@ -5081,6 +5149,8 @@ AutoFileTests.tearDown():  Removed **myster**ious undocumented
  > Throughout:  used open() instead of file(), and wrapped
  > long lines.
 -----------------------------------------------------
+
+
 ### Commit: 520d8ddd970a9b1da031070730151f6f5065cb47
 Whitespace normalization.
  > 
@@ -5088,6 +5158,8 @@ Whitespace normalization.
  > when followed by test_optparse, if I had any brains I'd
  > look at the checkin that last changed test_file ;-)
 -----------------------------------------------------
+
+
 ### Commit: 7f098112ee89a250862dcd48f157a4ab3522fb54
 Changed comments to make sense now that the LazyList-based
  > examples no longer require any explicit closing to avoid
@@ -5105,6 +5177,8 @@ Changed comments to make sense now that the LazyList-based
  > silently suppressing collection of everything reachable
  > from it(them)).
 -----------------------------------------------------
+
+
 ### Commit: 29b6b4f7c75121a69e260753e1b8befaee3b06df
 Kill several problems at once:  test_poll() failed sometimes for me.
  > Turns out the **myster**ious "expected output" file contained exactly N dots,
@@ -5116,14 +5190,19 @@ Kill several problems at once:  test_poll() failed sometimes for me.
  > and verify that the loop goes around at least a couple of times.  Also
  > cut the minimum time needed for this test from 4 seconds to 1.
 -----------------------------------------------------
+
+
 ### Commit: 9021c955951c63ef3075b4751615af329427d3ec
 SF bug #964230:  random.choice([]) should return more intelligible exception
  > 
  > Add a comment to make the traceback less **myster**ious.
 -----------------------------------------------------
+
+
 ### Commit: 2fd02eb80fdfd7b651d3df7e09a0b076e126cc03
 super_getattro(): kill some dead code; explain a **myster**y.
 -----------------------------------------------------
+
 ## Repository: python/bert
 ## Repository: python/home-assistant
 ## Repository: python/youtube-dl
@@ -5132,6 +5211,7 @@ super_getattro(): kill some dead code; explain a **myster**y.
  > 
  > And remove a **myster**ious comma from 115c65793af4c56c8f1986d2640105fc7e760c13
 -----------------------------------------------------
+
 ## Repository: python/spaCy
 ## Repository: python/sentry
 ### Commit: 06e165a99193b41ed30b1b7fdc3c1656853de747
@@ -5185,19 +5265,26 @@ feat(UX): design header and background consistency audit (#11067)
  > 
  > * fix duplicate padding with events page
 -----------------------------------------------------
+
+
 ### Commit: d9953f59bdd46c4e44273ff5a4f7e3462f2eae96
 Merge pull request #3043 from getsentry/letars
  > 
  > use initial avatars instead of '**myster**y person' when gravatar not set
 -----------------------------------------------------
+
+
 ### Commit: 387a89883d8446bfd504b3ab9bb76dad0023100a
 Merge pull request #2631 from drcapulet/alexc-consistent-gravatars
  > 
  > Default to '**myster**y man' for Gravatars like in the Python code
 -----------------------------------------------------
+
+
 ### Commit: ebd0000cdb4d72bc2525c47d7270f2c3d1c7f654
 Default to '**myster**y man' for Gravatars like in the Python code
 -----------------------------------------------------
+
 ## Repository: python/you-get
 ## Repository: python/python-fire
 ## Repository: python/glances
