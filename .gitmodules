@@ -161,120 +161,160 @@
 [submodule "data/ruby/jekyll"]
 	path = data/ruby/jekyll
 	url = https://github.com/jekyll/jekyll
+  ignore = all
 [submodule "data/ruby/discourse"]
 	path = data/ruby/discourse
 	url = https://github.com/discourse/discourse
+  ignore = all
 [submodule "data/ruby/fastlane"]
 	path = data/ruby/fastlane
 	url = https://github.com/fastlane/fastlane
+  ignore = all
 [submodule "data/ruby/devdocs"]
 	path = data/ruby/devdocs
 	url = https://github.com/freeCodeCamp/devdocs
+  ignore = all
 [submodule "data/ruby/devise"]
 	path = data/ruby/devise
 	url = https://github.com/plataformatec/devise
+  ignore = all
 [submodule "data/ruby/vagrant"]
 	path = data/ruby/vagrant
 	url = https://github.com/hashicorp/vagrant
+  ignore = all
 [submodule "data/ruby/mastodon"]
 	path = data/ruby/mastodon
 	url = https://github.com/tootsuite/mastodon
+  ignore = all
 [submodule "data/ruby/brew"]
 	path = data/ruby/brew
 	url = https://github.com/Homebrew/brew
+  ignore = all
 [submodule "data/ruby/metasploit-framework"]
 	path = data/ruby/metasploit-framework
 	url = https://github.com/rapid7/metasploit-framework
+  ignore = all
 [submodule "data/ruby/ruby"]
 	path = data/ruby/ruby
 	url = https://github.com/ruby/ruby
+  ignore = all
 [submodule "data/ruby/homebrew-cask"]
 	path = data/ruby/homebrew-cask
 	url = https://github.com/Homebrew/homebrew-cask
+  ignore = all
 [submodule "data/ruby/bootstrap-sass"]
 	path = data/ruby/bootstrap-sass
 	url = https://github.com/twbs/bootstrap-sass
+  ignore = all
 [submodule "data/ruby/diaspora"]
 	path = data/ruby/diaspora
 	url = https://github.com/diaspora/diaspora
+  ignore = all
 [submodule "data/ruby/CocoaPods"]
 	path = data/ruby/CocoaPods
 	url = https://github.com/CocoaPods/CocoaPods
+  ignore = all
 [submodule "data/ruby/capistrano"]
 	path = data/ruby/capistrano
 	url = https://github.com/capistrano/capistrano
+  ignore = all
 [submodule "data/ruby/sinatra"]
 	path = data/ruby/sinatra
 	url = https://github.com/sinatra/sinatra
+  ignore = all
 [submodule "data/ruby/logstash"]
 	path = data/ruby/logstash
 	url = https://github.com/elastic/logstash
+  ignore = all
 [submodule "data/ruby/rubocop"]
 	path = data/ruby/rubocop
 	url = https://github.com/rubocop-hq/rubocop
+  ignore = all
 [submodule "data/ruby/gollum"]
 	path = data/ruby/gollum
 	url = https://github.com/gollum/gollum
+  ignore = all
 [submodule "data/ruby/rails"]
 	path = data/ruby/rails
 	url = https://github.com/rails/rails
+  ignore = all
 [submodule "data/python/youtube-dl"]
 	path = data/python/youtube-dl
 	url = https://github.com/ytdl-org/youtube-dl
+  ignore = all
 [submodule "data/python/keras"]
 	path = data/python/keras
 	url = https://github.com/keras-team/keras
+  ignore = all
 [submodule "data/python/ansible"]
 	path = data/python/ansible
 	url = https://github.com/ansible/ansible
+  ignore = all
 [submodule "data/python/scrapy"]
 	path = data/python/scrapy
 	url = https://github.com/scrapy/scrapy
+  ignore = all
 [submodule "data/python/requests"]
 	path = data/python/requests
 	url = https://github.com/kennethreitz/requests
+  ignore = all
 [submodule "data/python/certbot"]
 	path = data/python/certbot
 	url = https://github.com/certbot/certbot
+  ignore = all
 [submodule "data/python/you-get"]
 	path = data/python/you-get
 	url = https://github.com/soimort/you-get
+  ignore = all
 [submodule "data/python/cpython"]
 	path = data/python/cpython
 	url = https://github.com/python/cpython
+  ignore = all
 [submodule "data/python/home-assistant"]
 	path = data/python/home-assistant
 	url = https://github.com/home-assistant/home-assistant
+  ignore = all
 [submodule "data/python/face_recognition"]
 	path = data/python/face_recognition
 	url = https://github.com/ageitgey/face_recognition
+  ignore = all
 [submodule "data/python/sentry"]
 	path = data/python/sentry
 	url = https://github.com/getsentry/sentry
+  ignore = all
 [submodule "data/python/mitmproxy"]
 	path = data/python/mitmproxy
 	url = https://github.com/mitmproxy/mitmproxy
+  ignore = all
 [submodule "data/python/bert"]
 	path = data/python/bert
 	url = https://github.com/google-research/bert
+  ignore = all
 [submodule "data/python/sqlmap"]
 	path = data/python/sqlmap
 	url = https://github.com/sqlmapproject/sqlmap
+  ignore = all
 [submodule "data/python/python-fire"]
 	path = data/python/python-fire
 	url = https://github.com/google/python-fire
+  ignore = all
 [submodule "data/python/django-rest-framework"]
 	path = data/python/django-rest-framework
 	url = https://github.com/encode/django-rest-framework
+  ignore = all
 [submodule "data/python/ZeroNet"]
 	path = data/python/ZeroNet
 	url = https://github.com/HelloZeroNet/ZeroNet
+  ignore = all
 [submodule "data/python/ipython"]
 	path = data/python/ipython
 	url = https://github.com/ipython/ipython
+  ignore = all
 [submodule "data/python/glances"]
 	path = data/python/glances
 	url = https://github.com/nicolargo/glances
+  ignore = all
 [submodule "data/python/spaCy"]
 	path = data/python/spaCy
 	url = https://github.com/explosion/spaCy
+  ignore = all
