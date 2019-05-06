@@ -42,3 +42,25 @@
   - https://github.com/aspnetboilerplate/aspnetboilerplate
   - https://github.com/AvaloniaUI/Avalonia
   - https://github.com/AutoMapper/AutoMapper
+
+### Ruby
+  - https://github.com/rails/rails
+  - https://github.com/jekyll/jekyll
+  - https://github.com/discourse/discourse
+  - https://github.com/fastlane/fastlane
+  - https://github.com/freeCodeCamp/devdocs
+  - https://github.com/plataformatec/devise
+  - https://github.com/hashicorp/vagrant
+  - https://github.com/tootsuite/mastodon
+  - https://github.com/Homebrew/brew
+  - https://github.com/rapid7/metasploit-framework
+  - https://github.com/ruby/ruby
+  - https://github.com/Homebrew/homebrew-cask
+  - https://github.com/twbs/bootstrap-sass
+  - https://github.com/diaspora/diaspora
+  - https://github.com/CocoaPods/CocoaPods
+  - https://github.com/capistrano/capistrano
+  - https://github.com/sinatra/sinatra
+  - https://github.com/elastic/logstash
+  - https://github.com/rubocop-hq/rubocop
+  - https://github.com/gollum/gollum

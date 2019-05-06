@@ -158,3 +158,63 @@
 	path = data/c-sharp/Blazor
 	url = https://github.com/aspnet/Blazor
   ignore = all
+[submodule "data/ruby/jekyll"]
+	path = data/ruby/jekyll
+	url = https://github.com/jekyll/jekyll
+[submodule "data/ruby/discourse"]
+	path = data/ruby/discourse
+	url = https://github.com/discourse/discourse
+[submodule "data/ruby/fastlane"]
+	path = data/ruby/fastlane
+	url = https://github.com/fastlane/fastlane
+[submodule "data/ruby/devdocs"]
+	path = data/ruby/devdocs
+	url = https://github.com/freeCodeCamp/devdocs
+[submodule "data/ruby/devise"]
+	path = data/ruby/devise
+	url = https://github.com/plataformatec/devise
+[submodule "data/ruby/vagrant"]
+	path = data/ruby/vagrant
+	url = https://github.com/hashicorp/vagrant
+[submodule "data/ruby/mastodon"]
+	path = data/ruby/mastodon
+	url = https://github.com/tootsuite/mastodon
+[submodule "data/ruby/brew"]
+	path = data/ruby/brew
+	url = https://github.com/Homebrew/brew
+[submodule "data/ruby/metasploit-framework"]
+	path = data/ruby/metasploit-framework
+	url = https://github.com/rapid7/metasploit-framework
+[submodule "data/ruby/ruby"]
+	path = data/ruby/ruby
+	url = https://github.com/ruby/ruby
+[submodule "data/ruby/homebrew-cask"]
+	path = data/ruby/homebrew-cask
+	url = https://github.com/Homebrew/homebrew-cask
+[submodule "data/ruby/bootstrap-sass"]
+	path = data/ruby/bootstrap-sass
+	url = https://github.com/twbs/bootstrap-sass
+[submodule "data/ruby/diaspora"]
+	path = data/ruby/diaspora
+	url = https://github.com/diaspora/diaspora
+[submodule "data/ruby/CocoaPods"]
+	path = data/ruby/CocoaPods
+	url = https://github.com/CocoaPods/CocoaPods
+[submodule "data/ruby/capistrano"]
+	path = data/ruby/capistrano
+	url = https://github.com/capistrano/capistrano
+[submodule "data/ruby/sinatra"]
+	path = data/ruby/sinatra
+	url = https://github.com/sinatra/sinatra
+[submodule "data/ruby/logstash"]
+	path = data/ruby/logstash
+	url = https://github.com/elastic/logstash
+[submodule "data/ruby/rubocop"]
+	path = data/ruby/rubocop
+	url = https://github.com/rubocop-hq/rubocop
+[submodule "data/ruby/gollum"]
+	path = data/ruby/gollum
+	url = https://github.com/gollum/gollum
+[submodule "data/ruby/rails"]
+	path = data/ruby/rails
+	url = https://github.com/rails/rails
