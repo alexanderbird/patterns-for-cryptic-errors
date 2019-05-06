@@ -1,3 +1,12 @@
+## Commits referencing 'cryptic' or 'myster*'
+ - ['cryptic' in JavaScript](../data/search-results/cryptic-results-in-javascript.md)
+ - ['cryptic' in C#](../data/search-results/cryptic-results-in-c-sharp.md)
+ - ['cryptic' in Ruby](../data/search-results/cryptic-results-in-ruby.md)
+ - ['myster*' in JavaScript](../data/search-results/myster-results-in-javascript.md)
+ - ['myster*' in C#](../data/search-results/myster-results-in-c-sharp.md)
+ - ['myster*' in Ruby](../data/search-results/myster-results-in-ruby.md)
+
+
 ## Repositories
 ### JavaScript
   - https://github.com/vuejs/vue
