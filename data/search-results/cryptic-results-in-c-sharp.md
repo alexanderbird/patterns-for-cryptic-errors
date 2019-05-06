@@ -93,9 +93,9 @@ Name the llvm methods using the debug symbol by default, instead of using the **
 ### Commit: a925966529011ff930f11797a7c4f2bf1333fb1e
 2009-03-12  Atsushi Enomoto  <atsushi@ximian.com>
  > 
- >         * SerializationMap.cs : make generic type parsing sloppy.
- >           because we don't know some **cryptic** hash algorithm:
- >           http://jeffbarnes.net/portal/blogs/jeff_barnes/archive/2007/05/10/wcf-serialization-and-generics.aspx
+ >  * SerializationMap.cs : make generic type parsing sloppy.
+ >  because we don't know some **cryptic** hash algorithm:
+ >  http://jeffbarnes.net/portal/blogs/jeff_barnes/archive/2007/05/10/wcf-serialization-and-generics.aspx
  > 
  > 
  > svn path=/trunk/mcs/; revision=129155

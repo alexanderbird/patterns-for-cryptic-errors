@@ -43,7 +43,7 @@ Add iOS Validate Environment Script (#19750)
  > <!--
  >   **INTERNAL and MINOR tagged notes will not be included in the next version's final release notes.**
  > 
- >     CATEGORY
+ >  CATEGORY
  >   [----------]      TYPE
  >   [ CLI      ] [-------------]    LOCATION
  >   [ DOCS     ] [ BREAKING    ] [-------------]
@@ -80,7 +80,7 @@ Default enableBabelRCLookup (recursive) to false
  > ```js
  > module.exports = {
  >   getEnableBabelRCLookup() {
- >     return true;
+ >  return true;
  >   },
  > };
  > ```
@@ -321,10 +321,10 @@ http: cleanup setHeader()
  > "name" is now explicitly checked to be a string. Where before if a
  > non-string was passed the following **cryptic** error was thrown:
  > 
- >     _http_outgoing.js:334
- >       var key = name.toLowerCase();
- >                      ^
- >     TypeError: undefined is not a function
+ >  _http_outgoing.js:334
+ >  var key = name.toLowerCase();
+ >  ^
+ >  TypeError: undefined is not a function
  > 
  > Signed-off-by: Trevor Norris <trev.norris@gmail.com>
 -----------------------------------------------------

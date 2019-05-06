@@ -12,7 +12,9 @@ class SearchResults
     result = "## Repository: #{@location}"
     @commits.each do |commit|
       result += "\n### Commit: #{commit.sha}"
-      result += "\n" + commit.message.split("\n").join("\n > ")
+      result += "\n" + commit.message.split("\n")
+        .map{|line| line.sub(/^    +/, ' ')}
+        .join("\n > ")
       result += "\n-----------------------------------------------------"
     end
     result.gsub(@search, "**#{@search}**")

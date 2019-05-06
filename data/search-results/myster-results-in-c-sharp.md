@@ -56,22 +56,22 @@ Fix problem with virtual memory commit in OOM scenario on Linux (#5609)
  >   - fixes #37305
  > 
  >   - resource name can be general string and using it as path
- >     might throw
+ >  might throw
  > 
- >        System.ArgumentException: Illegal characters in path.
+ >  System.ArgumentException: Illegal characters in path.
  > 
  >   - it would be possible to check for the path's invalid characters in
- >     the resource name. that would cause crossplatform issues
- >     though.
+ >  the resource name. that would cause crossplatform issues
+ >  though.
  > 
- >     various platforms have different invalid charactes sets for path
- >     names. for example using assembly built on mac with embedded
- >     linker blacklisting xml file, which's name contains characters in
- >     its filename which are invalid on windows. so the windows built
- >     app using that assembly would fail **myster**iously, because the
- >     important parts wouldn't be preserved.
+ >  various platforms have different invalid charactes sets for path
+ >  names. for example using assembly built on mac with embedded
+ >  linker blacklisting xml file, which's name contains characters in
+ >  its filename which are invalid on windows. so the windows built
+ >  app using that assembly would fail **myster**iously, because the
+ >  important parts wouldn't be preserved.
  > 
- >     thus we use just string comparison
+ >  thus we use just string comparison
 -----------------------------------------------------
 ### Commit: 5d4ff596a7871e2db2c6b236020c665268cd8470
 [semaphore] Fix mono_sem_wait() for Darwin, clean up mono_sem_post().
