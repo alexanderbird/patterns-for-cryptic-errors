@@ -218,3 +218,63 @@
 [submodule "data/ruby/rails"]
 	path = data/ruby/rails
 	url = https://github.com/rails/rails
+[submodule "data/python/youtube-dl"]
+	path = data/python/youtube-dl
+	url = https://github.com/ytdl-org/youtube-dl
+[submodule "data/python/keras"]
+	path = data/python/keras
+	url = https://github.com/keras-team/keras
+[submodule "data/python/ansible"]
+	path = data/python/ansible
+	url = https://github.com/ansible/ansible
+[submodule "data/python/scrapy"]
+	path = data/python/scrapy
+	url = https://github.com/scrapy/scrapy
+[submodule "data/python/requests"]
+	path = data/python/requests
+	url = https://github.com/kennethreitz/requests
+[submodule "data/python/certbot"]
+	path = data/python/certbot
+	url = https://github.com/certbot/certbot
+[submodule "data/python/you-get"]
+	path = data/python/you-get
+	url = https://github.com/soimort/you-get
+[submodule "data/python/cpython"]
+	path = data/python/cpython
+	url = https://github.com/python/cpython
+[submodule "data/python/home-assistant"]
+	path = data/python/home-assistant
+	url = https://github.com/home-assistant/home-assistant
+[submodule "data/python/face_recognition"]
+	path = data/python/face_recognition
+	url = https://github.com/ageitgey/face_recognition
+[submodule "data/python/sentry"]
+	path = data/python/sentry
+	url = https://github.com/getsentry/sentry
+[submodule "data/python/mitmproxy"]
+	path = data/python/mitmproxy
+	url = https://github.com/mitmproxy/mitmproxy
+[submodule "data/python/bert"]
+	path = data/python/bert
+	url = https://github.com/google-research/bert
+[submodule "data/python/sqlmap"]
+	path = data/python/sqlmap
+	url = https://github.com/sqlmapproject/sqlmap
+[submodule "data/python/python-fire"]
+	path = data/python/python-fire
+	url = https://github.com/google/python-fire
+[submodule "data/python/django-rest-framework"]
+	path = data/python/django-rest-framework
+	url = https://github.com/encode/django-rest-framework
+[submodule "data/python/ZeroNet"]
+	path = data/python/ZeroNet
+	url = https://github.com/HelloZeroNet/ZeroNet
+[submodule "data/python/ipython"]
+	path = data/python/ipython
+	url = https://github.com/ipython/ipython
+[submodule "data/python/glances"]
+	path = data/python/glances
+	url = https://github.com/nicolargo/glances
+[submodule "data/python/spaCy"]
+	path = data/python/spaCy
+	url = https://github.com/explosion/spaCy
