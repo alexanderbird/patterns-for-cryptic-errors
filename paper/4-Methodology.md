@@ -10,6 +10,8 @@
   - Source for (primarily) static websites
   - Style guides
   - Design systems
+  - Repositories with profanity in the name
+  - Repositories without English READMEs
 4. Choose the top 20 in each language
 
 ### Github search to get top repositories:
@@ -20,3 +22,5 @@
    https://github.com/search?l=C%23&o=desc&q=stars%3A%3E1&s=stars&type=Repositories
  - Ruby:
    https://github.com/search?l=Ruby&o=desc&q=stars%3A%3E1&s=stars&type=Repositories
+ - Python:
+   https://github.com/search?l=Python&o=desc&q=stars%3A%3E1&s=stars&type=Repositories

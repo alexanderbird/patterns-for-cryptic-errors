@@ -73,3 +73,25 @@
   - https://github.com/elastic/logstash
   - https://github.com/rubocop-hq/rubocop
   - https://github.com/gollum/gollum
+
+### Python
+  - https://github.com/ytdl-org/youtube-dl
+  - https://github.com/keras-team/keras
+  - https://github.com/ansible/ansible
+  - https://github.com/scrapy/scrapy
+  - https://github.com/kennethreitz/requests
+  - https://github.com/certbot/certbot
+  - https://github.com/soimort/you-get
+  - https://github.com/python/cpython
+  - https://github.com/home-assistant/home-assistant
+  - https://github.com/ageitgey/face_recognition
+  - https://github.com/getsentry/sentry
+  - https://github.com/mitmproxy/mitmproxy
+  - https://github.com/google-research/bert
+  - https://github.com/sqlmapproject/sqlmap
+  - https://github.com/google/python-fire
+  - https://github.com/encode/django-rest-framework
+  - https://github.com/HelloZeroNet/ZeroNet
+  - https://github.com/ipython/ipython
+  - https://github.com/nicolargo/glances
+  - https://github.com/explosion/spaCy

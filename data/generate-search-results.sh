@@ -1,5 +1,5 @@
 search_terms="cryptic myster"
-languages="c-sharp javascript ruby"
+languages="c-sharp javascript ruby python"
 for term in $search_terms
 do
   for directory in $languages

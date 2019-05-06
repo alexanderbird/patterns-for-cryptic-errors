@@ -1,4 +1,4 @@
-# Search: 'cryptic'
+# 'cryptic' in top JavaScript repos
 ## Repository: javascript/bootstrap
 ## Repository: javascript/Chart.js
 ## Repository: javascript/react-native
@@ -70,6 +70,8 @@ Add iOS Validate Environment Script (#19750)
  > 
  > fbshipit-source-id: a69ef2a6e513e580089c791fd44a0e70c2a3f240
 -----------------------------------------------------
+
+
 ### Commit: 023ac57337b351959d443133c3c09607c4ffc800
 Default enableBabelRCLookup (recursive) to false
  > 
@@ -94,6 +96,8 @@ Default enableBabelRCLookup (recursive) to false
  > 
  > fbshipit-source-id: ce368b1d5671cc6c6261cbe3c39e61c9401fe37a
 -----------------------------------------------------
+
+
 ### Commit: 1ad08aa65995df14053a925c5a84434c4cffb512
 Fix `react-native link` issue when using multiple manifests
  > 
@@ -111,6 +115,8 @@ Fix `react-native link` issue when using multiple manifests
  > 
  > fbshipit-source-id: b177f916fd4799c873d2515c18cbb87bef3203f0
 -----------------------------------------------------
+
+
 ### Commit: 20e99f5b9313c0f8c429b02787a0f9e691b68a19
 Fix invariant in scrollResponderZoomTo
  > 
@@ -125,6 +131,8 @@ Fix invariant in scrollResponderZoomTo
  > 
  > fbshipit-source-id: 47002a85d8252e5abbd1cd9ecef3d7676fa8615a
 -----------------------------------------------------
+
+
 ### Commit: c2a995d9df0b62788dbbace02656b0b523a382d3
 Update RunningOnDeviceAndroid.md
  > 
@@ -138,6 +146,8 @@ Update RunningOnDeviceAndroid.md
  > 
  > fbshipit-source-id: 34c580acd6bf3e7788b674bd0b41bc5a1023b010
 -----------------------------------------------------
+
+
 ### Commit: 93ff5799a59ca98be702af4a4236826fb578109b
 Add $(inherited) to OTHER_LDFLAGS in xcodeproj template
  > 
@@ -174,6 +184,8 @@ Add $(inherited) to OTHER_LDFLAGS in xcodeproj template
  > 
  > fbshipit-source-id: ef453ad2e822726db0159d24ec93e301192e21de
 -----------------------------------------------------
+
+
 ### Commit: 99158f0d5ae8f0a31db17b752bc8d3db0d5b4493
 Better error message for RawText outside <Text>
  > 
@@ -194,6 +206,7 @@ Better error message for RawText outside <Text>
  > 
  > fb-gh-sync-id: 5295a44a028c7be79d60dbaf0b5d59fd0a56fdde
 -----------------------------------------------------
+
 ## Repository: javascript/puppeteer
 ## Repository: javascript/meteor
 ### Commit: 0fbb97432c9f5c9b4c5958e719ca32d32a3922f1
@@ -207,6 +220,8 @@ Fix ENOTEMPTY and EPERM errors on Windows.
  > glad that it did, because otherwise this mistake would merely have been a
  > performance problem, and might not have been noticed before the release.
 -----------------------------------------------------
+
+
 ### Commit: 1a380f5532a95236eb066d44398d9a9c7b34b37f
 Improve minifiers to capture error from UglifyJS.
  > 
@@ -228,6 +243,8 @@ Improve minifiers to capture error from UglifyJS.
  > Crude, but incredibly helpful in diagnosing this problem until a better
  > solution is reached.
 -----------------------------------------------------
+
+
 ### Commit: 0e22996547f4529ec02079846360abcde535a4de
 Check type of `onException` argument to `bindEnvironment`
  > 
@@ -236,6 +253,8 @@ Check type of `onException` argument to `bindEnvironment`
  > issue is not easy to find. This can cause a **cryptic** error message about
  > an exception being thrown when onException() itself is being called.
 -----------------------------------------------------
+
+
 ### Commit: 2ab2ddedcce1d090249b04c97955bf33c3f56a8a
 Clean up ReactiveDict#setDefault and add test
  > 
@@ -244,6 +263,8 @@ Clean up ReactiveDict#setDefault and add test
  > a string, which has been true since this code was written, so there
  > was never any reason for this code or comment to be written this way.
 -----------------------------------------------------
+
+
 ### Commit: 45752e3203ee2699d1990dd8e899761756058410
 parseConstraint -> parsePackageConstraint
  > 
@@ -266,11 +287,14 @@ parseConstraint -> parsePackageConstraint
  > method of it, at least), but it is considered an internal API so we
  > are not worrying too much about it.
 -----------------------------------------------------
+
+
 ### Commit: e850fd33a3eba416f4f7d80804022842a389ae56
 allow `this` when no data context
  > 
  > (rather than throwing a **cryptic** error)
 -----------------------------------------------------
+
 ## Repository: javascript/express
 ## Repository: javascript/atom
 ## Repository: javascript/vue
@@ -293,6 +317,8 @@ crypto: decode missing passphrase errors
  > Reviewed-By: Anna Henningsen <anna@addaleax.net>
  > Reviewed-By: Sam Roberts <vieuxtech@gmail.com>
 -----------------------------------------------------
+
+
 ### Commit: e3d9d25083fe022015d7ee6b07fe3212bb3dde2b
 test: add test-child-process-emfile fail message
  > 
@@ -302,6 +328,8 @@ test: add test-child-process-emfile fail message
  > PR-URL: https://github.com/nodejs/node/pull/3335
  > Reviewed-By: Ben Noordhuis <info@bnoordhuis.nl>
 -----------------------------------------------------
+
+
 ### Commit: bd42ba056afe1efe9a4f58f1274d9305c4998a1f
 async-wrap: set flags using functions
  > 
@@ -311,6 +339,8 @@ async-wrap: set flags using functions
  > PR-URL: https://github.com/iojs/io.js/pull/1614
  > Reviewed-By: Ben Noordhuis <info@bnoordhuis.nl>
 -----------------------------------------------------
+
+
 ### Commit: 979d0ca874df0383311ca06f154f6965074196ee
 http: cleanup setHeader()
  > 
@@ -328,6 +358,8 @@ http: cleanup setHeader()
  > 
  > Signed-off-by: Trevor Norris <trev.norris@gmail.com>
 -----------------------------------------------------
+
+
 ### Commit: 5757642e912c0a4de6476fc766748b6e33ac845b
 node: allow nextTick infinite recursion
  > 
@@ -339,6 +371,7 @@ node: allow nextTick infinite recursion
  > This is being done to prevent possible **cryptic** FATAL ERROR messages from
  > popping up, and issues being posted about them.
 -----------------------------------------------------
+
 ## Repository: javascript/reveal.js
 ## Repository: javascript/redux
 ## Repository: javascript/react
@@ -689,6 +722,8 @@ Add warning for rendering into container that was updated manually (#10210)
  > **issue:**
  > https://github.com/facebook/react/issues/8854
 -----------------------------------------------------
+
+
 ### Commit: 54d3134da2c87fe96eae0df1ee1b05a4f0bbf117
 Add `ReactProps.func`
  > 
@@ -696,6 +731,7 @@ Add `ReactProps.func`
  > slightly-more-**cryptic** ReactProps.instanceOf(Function). We should have
  > had this all along.
 -----------------------------------------------------
+
 ## Repository: javascript/axios
 ## Repository: javascript/Font-Awesome
 ## Repository: javascript/create-react-app
