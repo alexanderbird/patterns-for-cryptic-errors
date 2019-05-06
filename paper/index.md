@@ -2,7 +2,7 @@
 - [Introduction](./2-Introduction.md)
 - [Background](./3-Background.md)
 - [Methodology](./4-Methodology.md)
-- [Results](./5-Data-and-Results.md)
+- [Data and Results](./5-Data-and-Results.md)
 - [Discussion](./6-Discussion.md)
 - [Conclusion](./7-Conclusion.md)
 - [Acknowledgements](./8-Acknowledgements.md)
