@@ -8,6 +8,27 @@
  - ['myster*' in Ruby](../data/search-results/myster-results-in-ruby.md)
  - ['myster*' in Python](../data/search-results/myster-results-in-python.md)
 
+## Types of Cryptic Error Resolutions
+
+| Fix Type Code | Fix Type            | Description                                            |
+|---------------|---------------------|--------------------------------------------------------|
+| CP            | Check Preconditions | throw a descriptive error at the component boundary    |
+| FB            | Fix Bug             | Change the code so no error occurs                     |
+| RT            | Rethrow             | Catch the error and rethrow with more detail           |
+| UNCLEAR       | Unclear             | Will need to look at the diff to determin the fix type |
+
+| Repo         | Commit                                   | Fix Type      |
+|--------------|------------------------------------------|---------------|
+| react-native | 1fb7a25f7b9686b23bf354feedb8c39334d45ff6 | CP            |
+| react-native | 023ac57337b351959d443133c3c09607c4ffc800 | FB            |
+| react-native | 1ad08aa65995df14053a925c5a84434c4cffb512 | CP FB         |
+| react-native | 20e99f5b9313c0f8c429b02787a0f9e691b68a19 | UNCLEAR       |
+| react-native | c2a995d9df0b62788dbbace02656b0b523a382d3 | UNCLEAR       |
+| react-native | 93ff5799a59ca98be702af4a4236826fb578109b | FB            |
+| react-native | 99158f0d5ae8f0a31db17b752bc8d3db0d5b4493 | UNCLEAR (RT?) |
+| meteor       |                                          |               |
+
+
 
 ## Repositories
 ### JavaScript
